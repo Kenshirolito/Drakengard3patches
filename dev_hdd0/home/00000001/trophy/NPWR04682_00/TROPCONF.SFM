@@ -1,0 +1,316 @@
+<!--Sce-Np-Trophy-Signature: 4c39b98c01000000000000006b0e238e542f80dd411cc5928df80647435605347c79a51c9424aa41e0d9455b306a6e5425a09f5afb82d95a72e02360dc64be8c5a4d70e858245405fd5e1151db836436f094a47c950b623d1eb157099961b4f644b437ae33fefb3f2ef0f6c2528aaf51411058f48110b8ab642ca6627e84317ac62df1e648f524a98d2e56b1dab3fd4abc1ec8ff89469698e129407f540adf59-->
+<trophyconf version="1.1" policy="large">
+ <npcommid>NPWR04682_00</npcommid>
+ <trophyset-version>01.05</trophyset-version>
+ <parental-level license-area="default">0</parental-level>
+ <title-name>DRAG-ON DRAGOON 3</title-name>
+ <title-detail>DRAG-ON DRAGOON 3_Trophy</title-detail>
+ <group id="001">
+  <name>Two's Chapter: Bliss</name>
+  <detail>"Two's Chapter: Bliss" Trophies</detail>
+ </group>
+ <group id="002">
+  <name>Three's Chapter: Play</name>
+  <detail>"Three's Chapter: Play" Trophies</detail>
+ </group>
+ <group id="003">
+  <name>Four's Chapter: Frigidity</name>
+  <detail>"Four's Chapter: Frigidity" Trophies</detail>
+ </group>
+ <group id="004">
+  <name>Five's Chapter: Hunger</name>
+  <detail>"Five's Chapter: Hunger" Trophies</detail>
+ </group>
+ <group id="005">
+  <name>Zero's Chapter: Fate</name>
+  <detail>"Zero's Chapter: Fate" Trophies</detail>
+ </group>
+ <trophy id="000" hidden="yes" ttype="P" pid="-1">
+  <name>The Final Song</name>
+  <detail>I   can   hear    the      sound.</detail>
+ </trophy>
+ <trophy id="001" hidden="yes" ttype="B" pid="000">
+  <name>Chapter Zero</name>
+  <detail>Complete chapter 0.</detail>
+ </trophy>
+ <trophy id="002" hidden="yes" ttype="S" pid="000">
+  <name>Ending A</name>
+  <detail>Complete branch A.</detail>
+ </trophy>
+ <trophy id="003" hidden="yes" ttype="S" pid="000">
+  <name>Ending B</name>
+  <detail>Complete branch B.</detail>
+ </trophy>
+ <trophy id="004" hidden="yes" ttype="S" pid="000">
+  <name>Ending C</name>
+  <detail>Complete branch C.</detail>
+ </trophy>
+ <trophy id="005" hidden="yes" ttype="G" pid="000">
+  <name>Ending D</name>
+  <detail>Complete branch D.</detail>
+ </trophy>
+ <trophy id="006" hidden="yes" ttype="B" pid="000">
+  <name>The Flood of Lust</name>
+  <detail>Defeat Phanuel.</detail>
+ </trophy>
+ <trophy id="007" hidden="yes" ttype="B" pid="000">
+  <name>The Frigid Castle's Fall</name>
+  <detail>Defeat Armaros.</detail>
+ </trophy>
+ <trophy id="008" hidden="yes" ttype="B" pid="000">
+  <name>The Puppet Wrangler</name>
+  <detail>Defeat Almisael.</detail>
+ </trophy>
+ <trophy id="009" hidden="yes" ttype="B" pid="000">
+  <name>The Twin Walls' Slumber</name>
+  <detail>Defeat Egregori.</detail>
+ </trophy>
+ <trophy id="010" hidden="yes" ttype="B" pid="000">
+  <name>The Dragons' Purpose</name>
+  <detail>Defeat Gabriel.</detail>
+ </trophy>
+ <trophy id="011" hidden="yes" ttype="B" pid="000">
+  <name>Poison and Flowers</name>
+  <detail>Defeat Raphael.</detail>
+ </trophy>
+ <trophy id="012" hidden="yes" ttype="B" pid="000">
+  <name>The Sullied Dance</name>
+  <detail>Defeat Abdiel.</detail>
+ </trophy>
+ <trophy id="013" hidden="yes" ttype="B" pid="000">
+  <name>The Servile Dragon</name>
+  <detail>Defeat Zophiel.</detail>
+ </trophy>
+ <trophy id="014" hidden="yes" ttype="B" pid="000">
+  <name>The Immortal Color</name>
+  <detail>Defeat Galgaliel.</detail>
+ </trophy>
+ <trophy id="015" hidden="yes" ttype="B" pid="000">
+  <name>The Ancient Progenitor</name>
+  <detail>Defeat Ezrael.</detail>
+ </trophy>
+ <trophy id="016" hidden="no" ttype="B" pid="000">
+  <name>Power of the Song</name>
+  <detail>Activated Intoner mode for the first time.</detail>
+ </trophy>
+ <trophy id="017" hidden="no" ttype="B" pid="000">
+  <name>Momentary Perfection</name>
+  <detail>Pulled off a successful counterattack.</detail>
+ </trophy>
+ <trophy id="018" hidden="no" ttype="B" pid="000">
+  <name>Skilled Combatant</name>
+  <detail>Pulled off a weapon-change combo.</detail>
+ </trophy>
+ <trophy id="019" hidden="no" ttype="B" pid="000">
+  <name>First-time Shopper</name>
+  <detail>Went shopping for the first time.</detail>
+ </trophy>
+ <trophy id="020" hidden="no" ttype="B" pid="000">
+  <name>Weapon Collector (Casual)</name>
+  <detail>Collected 5 weapons.</detail>
+ </trophy>
+ <trophy id="021" hidden="no" ttype="B" pid="000">
+  <name>Weapon Collector (Serious)</name>
+  <detail>Collected 15 weapons.</detail>
+ </trophy>
+ <trophy id="022" hidden="no" ttype="B" pid="000">
+  <name>Weapon Collector (Hardcore)</name>
+  <detail>Collected 25 weapons.</detail>
+ </trophy>
+ <trophy id="023" hidden="no" ttype="B" pid="000">
+  <name>Sword Master</name>
+  <detail>Obtained every sword weapon.</detail>
+ </trophy>
+ <trophy id="024" hidden="no" ttype="B" pid="000">
+  <name>Spear Master</name>
+  <detail>Obtained every spear weapon.</detail>
+ </trophy>
+ <trophy id="025" hidden="no" ttype="B" pid="000">
+  <name>Knuckle Master</name>
+  <detail>Obtained every claw weapon.</detail>
+ </trophy>
+ <trophy id="026" hidden="no" ttype="B" pid="000">
+  <name>Chakram Master</name>
+  <detail>Obtained every chakram weapon.</detail>
+ </trophy>
+ <trophy id="027" hidden="no" ttype="S" pid="000">
+  <name>Weapon Master</name>
+  <detail>Collected every weapon.</detail>
+ </trophy>
+ <trophy id="028" hidden="no" ttype="G" pid="000">
+  <name>Weapon Maniac</name>
+  <detail>Raised every weapon to level 4.</detail>
+ </trophy>
+ <trophy id="029" hidden="no" ttype="B" pid="000">
+  <name>Chain King</name>
+  <detail>Land 50 consecutive hits.</detail>
+ </trophy>
+ <trophy id="030" hidden="no" ttype="S" pid="000">
+  <name>Chain Master</name>
+  <detail>Land 100 consecutive hits.</detail>
+ </trophy>
+ <trophy id="031" hidden="no" ttype="S" pid="000">
+  <name>Gold Master</name>
+  <detail>Earned a cumulative total of 300,000 gold.</detail>
+ </trophy>
+ <trophy id="032" hidden="yes" ttype="B" pid="000">
+  <name>Go on. You know you want it.</name>
+  <detail>Accepted the second present from Dito.</detail>
+ </trophy>
+ <trophy id="033" hidden="yes" ttype="B" pid="000">
+  <name>A painfully exquisite gift!</name>
+  <detail>Accepted the second present from Decad.</detail>
+ </trophy>
+ <trophy id="034" hidden="yes" ttype="B" pid="000">
+  <name>The pleasure is ALL mine...</name>
+  <detail>Accepted the second present from Octa.</detail>
+ </trophy>
+ <trophy id="035" hidden="yes" ttype="B" pid="000">
+  <name>As kind as I am beautiful.</name>
+  <detail>Accepted the second present from Cent.</detail>
+ </trophy>
+ <trophy id="036" hidden="no" ttype="B" pid="000">
+  <name>Trial Period</name>
+  <detail>Completed at least one mission with every disciple.</detail>
+ </trophy>
+ <trophy id="037" hidden="no" ttype="B" pid="000">
+  <name>Gimme Your Money!</name>
+  <detail>Fulfilled one of Accord's requests.</detail>
+ </trophy>
+ <trophy id="038" hidden="no" ttype="S" pid="000">
+  <name>Fork it All Over!</name>
+  <detail>Fulfilled 20 of Accord's requests.</detail>
+ </trophy>
+ <trophy id="039" hidden="no" ttype="G" pid="000">
+  <name>Every Last Coin is Mine!</name>
+  <detail>Fulfilled all of Accord's requests.</detail>
+ </trophy>
+ <trophy id="040" hidden="no" ttype="B" pid="000">
+  <name>Treasure Hunter</name>
+  <detail>Opened 50 treasure chests.</detail>
+ </trophy>
+ <trophy id="041" hidden="no" ttype="S" pid="000">
+  <name>True Treasure Hunter</name>
+  <detail>Opened every treasure chest.</detail>
+ </trophy>
+ <trophy id="042" hidden="no" ttype="B" pid="000">
+  <name>Fresh-blooded Intoner</name>
+  <detail>Defeat 100 enemies.</detail>
+ </trophy>
+ <trophy id="043" hidden="no" ttype="S" pid="000">
+  <name>Crimson Intoner</name>
+  <detail>Defeat 1000 enemies.</detail>
+ </trophy>
+ <trophy id="044" hidden="no" ttype="B" pid="000">
+  <name>Resurrected Intoner</name>
+  <detail>Reach player level 5.</detail>
+ </trophy>
+ <trophy id="045" hidden="no" ttype="B" pid="000">
+  <name>Immortal Intoner</name>
+  <detail>Reach player level 30.</detail>
+ </trophy>
+ <trophy id="046" hidden="no" ttype="B" pid="000">
+  <name>Ruler of the Skies</name>
+  <detail>Earn every perfect bonus during air-battle stages.</detail>
+ </trophy>
+ <trophy id="047" hidden="no" ttype="B" pid="-1" gid="001">
+  <name>Two's Chapter, Verse 1</name>
+  <detail>Complete Mission 1.</detail>
+ </trophy>
+ <trophy id="048" hidden="no" ttype="B" pid="-1" gid="001">
+  <name>Two's Chapter, Verse 2</name>
+  <detail>Complete Mission 2.</detail>
+ </trophy>
+ <trophy id="049" hidden="no" ttype="B" pid="-1" gid="001">
+  <name>Two's Chapter, Verse 3</name>
+  <detail>Complete Mission 3.</detail>
+ </trophy>
+ <trophy id="050" hidden="yes" ttype="S" pid="-1" gid="001">
+  <name>Serenity Obtained!</name>
+  <detail>Defeat Homunculus.</detail>
+ </trophy>
+ <trophy id="051" hidden="yes" ttype="G" pid="-1" gid="001">
+  <name>Terminus of Bliss</name>
+  <detail>Raise Two to her maximum level (10).</detail>
+ </trophy>
+ <trophy id="052" hidden="no" ttype="B" pid="-1" gid="002">
+  <name>Three's Chapter, Verse 1</name>
+  <detail>Complete Mission 1.</detail>
+ </trophy>
+ <trophy id="053" hidden="no" ttype="B" pid="-1" gid="002">
+  <name>Three's Chapter, Verse 2</name>
+  <detail>Complete Mission 2.</detail>
+ </trophy>
+ <trophy id="054" hidden="no" ttype="B" pid="-1" gid="002">
+  <name>Three's Chapter, Verse 3</name>
+  <detail>Complete Mission 3.</detail>
+ </trophy>
+ <trophy id="055" hidden="yes" ttype="S" pid="-1" gid="002">
+  <name>Toys Complete!</name>
+  <detail>Defeat Greater Gigas.</detail>
+ </trophy>
+ <trophy id="056" hidden="yes" ttype="G" pid="-1" gid="002">
+  <name>Epitome of Play</name>
+  <detail>Raise Three to her maximum level (10).</detail>
+ </trophy>
+ <trophy id="057" hidden="no" ttype="B" pid="-1" gid="003">
+  <name>Four's Chapter, Verse 1</name>
+  <detail>Complete Mission 1.</detail>
+ </trophy>
+ <trophy id="058" hidden="no" ttype="B" pid="-1" gid="003">
+  <name>Four's Chapter, Verse 2</name>
+  <detail>Complete Mission 2.</detail>
+ </trophy>
+ <trophy id="059" hidden="no" ttype="B" pid="-1" gid="003">
+  <name>Four's Chapter, Verse 3</name>
+  <detail>Complete Mission 3.</detail>
+ </trophy>
+ <trophy id="060" hidden="yes" ttype="S" pid="-1" gid="003">
+  <name>Justice Prevails!</name>
+  <detail>Defeat Pirate Fleets.</detail>
+ </trophy>
+ <trophy id="061" hidden="yes" ttype="G" pid="-1" gid="003">
+  <name>Peak of Frigidity</name>
+  <detail>Raise Four to her maximum level (10).</detail>
+ </trophy>
+ <trophy id="062" hidden="no" ttype="B" pid="-1" gid="004">
+  <name>Five's Chapter, Verse 1</name>
+  <detail>Complete Mission 1.</detail>
+ </trophy>
+ <trophy id="063" hidden="no" ttype="B" pid="-1" gid="004">
+  <name>Five's Chapter, Verse 2</name>
+  <detail>Complete Mission 2.</detail>
+ </trophy>
+ <trophy id="064" hidden="no" ttype="B" pid="-1" gid="004">
+  <name>Five's Chapter, Verse 3</name>
+  <detail>Complete Mission 3.</detail>
+ </trophy>
+ <trophy id="065" hidden="yes" ttype="S" pid="-1" gid="004">
+  <name>Food Obtained!</name>
+  <detail>Defeat the Big, Juicy Crab.</detail>
+ </trophy>
+ <trophy id="066" hidden="yes" ttype="G" pid="-1" gid="004">
+  <name>Climax of Hunger</name>
+  <detail>Raise Five to her maximum level (10).</detail>
+ </trophy>
+ <trophy id="067" hidden="no" ttype="B" pid="-1" gid="005">
+  <name>Zero's Chapter, Verse 1</name>
+  <detail>Complete Mission 1.</detail>
+ </trophy>
+ <trophy id="068" hidden="no" ttype="B" pid="-1" gid="005">
+  <name>Zero's Chapter, Verse 2</name>
+  <detail>Complete Mission 2.</detail>
+ </trophy>
+ <trophy id="069" hidden="no" ttype="B" pid="-1" gid="005">
+  <name>Zero's Chapter, Verse 3</name>
+  <detail>Complete Mission 3.</detail>
+ </trophy>
+ <trophy id="070" hidden="yes" ttype="S" pid="-1" gid="005">
+  <name>Partner Obtained!</name>
+  <detail>Defeat Michael.</detail>
+ </trophy>
+ <trophy id="071" hidden="yes" ttype="G" pid="-1" gid="005">
+  <name>Cycle of Fate</name>
+  <detail>Raise Zero to her maximum level (10).</detail>
+ </trophy>
+</trophyconf>

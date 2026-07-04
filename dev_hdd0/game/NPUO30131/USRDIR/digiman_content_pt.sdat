@@ -1,0 +1,1571 @@
+{
+
+	"manual": 
+	{
+
+		"meta" :
+		{
+			"project_code" : "puppeteer",
+			"language_code" : "pt",
+			"datetime" : "Jul 8, 2013 - 10:21:33 PDT",
+			"author" : "dardub",
+			"output_type" : "as3",
+			"parser_version" : "1.7.0"
+		},
+		"localization" :
+		{
+			"toc" :
+			{
+				"captions" :
+				[
+					"CONTEÚDO"
+				]
+			},
+			"nav_bib" :
+			{
+				"standard" :
+				{
+					"captions" :
+					[
+						"Guia de navegação",
+						"Pág. ant/seg",
+						"Conteúdo",
+						"Selecionar",
+						"Pág. anterior/seguinte (",
+						" + Gesto esquerdo/direito)"
+					]
+				},
+				"language" :
+				{
+					"captions" :
+					[
+						"Navegar",
+						"Selecionar"
+					]
+				},
+				"toc" :
+				{
+					"captions" :
+					[
+						"Navegar",
+						"Selecionar",
+						"Voltar",
+						"Navegar (",
+						" + Gesto para cima/para baixo)"
+					]
+				},
+				"intro" :
+				{
+					"captions" :
+					[
+						"Pressione",
+						"Botão"
+					]
+				},
+				"warning" :
+				{
+					"captions" :
+					[
+						"Pressione",
+						"para continuar"
+					]
+				},
+				"tip_box" :
+				{
+					"captions" :
+					[
+						"Navegar",
+						"Voltar"
+					]
+				},
+				"search" :
+				{
+					"captions" :
+					[
+						"Navegar",
+						"Buscar",
+						"Selecionar",
+						"Voltar"
+					]
+				},
+				"map" :
+				{
+					"captions" :
+					[
+						"Navegar",
+						"Voltar",
+						"Seguinte",
+						"Anterior"
+					]
+				},
+				"video_player" :
+				{
+					"captions" :
+					[
+						"Reiniciar",
+						"Jogar/Pausa",
+						"Voltar"
+					]
+				},
+				"upsell" :
+				{
+					"captions" :
+					[
+						"Visitar loja",
+						"Voltar"
+					]
+				},
+				"photo_box" :
+				{
+					"captions" :
+					[
+						"Voltar"
+					]
+				}
+			},
+			"nav_guide" :
+			{
+				"captions" :
+				[
+					"Controles de navegação",
+					"Página\nanterior",
+					"Navegar\npelo conteúdo",
+					"Guia de navegação",
+					"Alternar Entre Áudio",
+					"Confirmar",
+					"Cancelar",
+					"Índice",
+					"Página\nseguinte"
+				]
+			},
+			"nav_motion_guide" :
+			{
+				"captions" :
+				[
+					"Controles de navegação",
+					"Guia de navegação",
+					"Pág. anterior/seguinte (",
+					" + Gesto esquerdo/direito)",
+					"Navegar (",
+					" + Gesto para cima/para baixo)",
+					"Índice",
+					"Cancelar",
+					"Confirmar"
+				]
+			},
+			"language_code" : "pt"
+		},
+
+
+
+
+
+		"view_data": 
+		{
+
+
+
+		
+			"images" :
+			[
+
+				{
+					"key" : "autosave_icon",
+					"image_path" : "autosave_icon.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "fpo_image",
+					"image_path" : "fpo.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "fpo_large",
+					"image_path" : "fpo_large.jpg",
+					"cache" : "false"
+				},
+				{
+					"key" : "highlight_button_overlay",
+					"image_path" : "highlight_button_overlay.png",
+					"cache" : "true"
+				},
+				{
+					"key" : "modal/bodyslam",
+					"image_path" : "modal/bodyslam.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/companion",
+					"image_path" : "modal/companion.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/cut",
+					"image_path" : "modal/cut.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/gamescreen",
+					"image_path" : "modal/gamescreen.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/guard",
+					"image_path" : "modal/guard.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/heads",
+					"image_path" : "modal/heads.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/hookclaw",
+					"image_path" : "modal/hookclaw.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/mainmenu_pt",
+					"image_path" : "modal/mainmenu_pt.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/ninjabomb",
+					"image_path" : "modal/ninjabomb.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/skycut",
+					"image_path" : "modal/skycut.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "modal/zipcut",
+					"image_path" : "modal/zipcut.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/bodyslam",
+					"image_path" : "screenshots/bodyslam.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/companion",
+					"image_path" : "screenshots/companion.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/cut",
+					"image_path" : "screenshots/cut.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/gamescreen",
+					"image_path" : "screenshots/gamescreen.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/guard",
+					"image_path" : "screenshots/guard.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/heads",
+					"image_path" : "screenshots/heads.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/hookclaw",
+					"image_path" : "screenshots/hookclaw.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/mainmenu_en",
+					"image_path" : "screenshots/mainmenu_en.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/mainmenu_es",
+					"image_path" : "screenshots/mainmenu_es.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/mainmenu_fr",
+					"image_path" : "screenshots/mainmenu_fr.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/mainmenu_pt",
+					"image_path" : "screenshots/mainmenu_pt.jpg",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/ninjabomb",
+					"image_path" : "screenshots/ninjabomb.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/skycut",
+					"image_path" : "screenshots/skycut.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "screenshots/zipcut",
+					"image_path" : "screenshots/zipcut.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "warning_icon",
+					"image_path" : "warning_icon.png",
+					"cache" : "true"
+				}
+
+
+
+			],
+
+			"fonts" :
+			{
+				"main_console_font" :
+				{
+					"key" : "main_console_font",
+					"font_name" : "SCE3.6w1",
+					"css_font_name" : "SCE3.6w1"
+				},
+				"aux_console_font" :
+				{
+					"key" : "aux_console_font",
+					"font_name" : "PS2 Buttons Normal",
+					"css_font_name" : "PS2 Buttons"
+				},
+				"arrows_console_font" :
+				{
+					"key" : "arrows_console_font",
+					"font_name" : "FOT-Rodin Pro DB",
+					"css_font_name" : "FOT-Rodin Pro DB"
+				},
+				"arial_black" :
+				{
+					"key" : "arial_black",
+					"font_name" : "Arial Black",
+					"css_font_name" : "Arial Black"
+				},
+				"bauer_black" :
+				{
+					"key" : "bauer_black",
+					"font_name" : "8 Bauer Bodoni** Black    09033",
+					"css_font_name" : "8 Bauer Bodoni** Black    09033"
+				},
+				"kreon_regular" :
+				{
+					"key" : "kreon_regular",
+					"font_name" : "Kreon Regular",
+					"css_font_name" : "Kreon Regular"
+				}
+			},
+
+
+			"text_styles" :
+			{
+				"chapter_header" :
+				{
+					"name" : "chapter_header",
+					"display_name" : "Chapter Header",
+					"type" : "block",
+					"font" : "bauer_black",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "60",
+					"font_leading" : "67",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "55"
+				},
+				"chapter_header_warning" :
+				{
+					"name" : "chapter_header_warning",
+					"display_name" : "Chapter Header Warning",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "true",
+					"font_color" : "ec1c24",
+					"font_size" : "36",
+					"font_leading" : "36",
+					"font_tracking" : "0",
+					"space_after" : "36",
+					"console_icons_font_size" : "30"
+				},
+				"page_subheader" :
+				{
+					"name" : "page_subheader",
+					"display_name" : "Chapter Subheader",
+					"type" : "block",
+					"font" : "bauer_black",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "42",
+					"font_leading" : "46",
+					"font_tracking" : "0",
+					"space_after" : "32",
+					"console_icons_font_size" : "38"
+				},
+				"page_bold" :
+				{
+					"name" : "page_bold",
+					"display_name" : "Page Bold",
+					"font" : "bauer_black",
+					"font_bold" : "true",
+					"font_color" : "0000000",
+					"font_size" : "35",
+					"font_leading" : "36",
+					"font_tracking" : "0",
+					"space_after" : "2",
+					"console_icons_font_size" : "30"
+				},
+				"tip_kludge" :
+				{
+					"name" : "tip_kludge",
+					"display_name" : "Tip Kludge",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "40",
+					"font_leading" : "48",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "34"
+				},
+				"page_normal" :
+				{
+					"name" : "page_normal",
+					"display_name" : "Page Normal",
+					"type" : "block",
+					"font" : "kreon_regular",
+					"font_bold" : "true",
+					"font_color" : "0000000",
+					"font_size" : "34",
+					"font_leading" : "48",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "32"
+				},
+				"page_warning" :
+				{
+					"name" : "page_warning",
+					"display_name" : "Page Warning",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "ffffff",
+					"font_size" : "30",
+					"font_leading" : "40",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "30"
+				},
+				"page_bold_legal" :
+				{
+					"name" : "page_bold_legal",
+					"display_name" : "Page Bold Legal",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "true",
+					"font_color" : "000000",
+					"font_size" : "30",
+					"font_leading" : "36",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "30"
+				},
+				"page_legal" :
+				{
+					"name" : "page_legal",
+					"display_name" : "Legal Normal",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "30",
+					"font_leading" : "36",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "30"
+				},
+				"page_legal_small" :
+				{
+					"name" : "page_legal_small",
+					"display_name" : "Legal Small",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "20",
+					"font_leading" : "24",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "20"
+				},
+				"page_markup" :
+				{
+					"name" : "page_markup",
+					"display_name" : "Page Markup",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "ff00ff",
+					"font_size" : "30",
+					"font_leading" : "42",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "30"
+				},
+				"page_note" :
+				{
+					"name" : "page_note",
+					"display_name" : "Page Note",
+					"type" : "block",
+					"font" : "kreon_regular",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "28",
+					"font_leading" : "28",
+					"font_tracking" : "0",
+					"space_after" : "10",
+					"console_icons_font_size" : "34"
+				},
+				"modal_header" :
+				{
+					"name" : "modal_header",
+					"display_name" : "Modal Header",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "fff1a6",
+					"font_size" : "58",
+					"font_leading" : "67",
+					"font_tracking" : "0",
+					"space_after" : "32",
+					"console_icons_font_size" : "58"
+				},
+				"modal_body" :
+				{
+					"name" : "modal_body",
+					"display_name" : "Modal Body",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "ffffff",
+					"font_size" : "40",
+					"font_leading" : "48",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "34"
+				},
+				"console_sce3_6w1" :
+				{
+					"name" : "console_sce3_6w1",
+					"display_name" : "SCE3.6W1",
+					"type" : "inline",
+					"font" : "main_console_font",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "40",
+					"font_leading" : "48",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "34"
+				},
+				"console_ps2_button_normal" :
+				{
+					"name" : "console_ps2_button_normal",
+					"display_name" : "PS2 Button Normal",
+					"type" : "inline",
+					"font" : "aux_console_font",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "34",
+					"font_leading" : "48",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "34"
+				},
+				"console_fot_rodin_pro" :
+				{
+					"name" : "console_fot_rodin_pro",
+					"display_name" : "FOT Rodin Pro",
+					"type" : "inline",
+					"font" : "arrows_console_font",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "34",
+					"font_leading" : "48",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "34"
+				}
+			}
+
+
+
+		},
+
+
+		"content" : 
+		{
+			"chapters" : 
+			[
+				{
+					"item" : "CHAPTER",
+					"key" : "getting_started",
+					"type" : "normal",
+					"header" : "{{P::style_key:chapter_header;&&Iniciando}}",
+					"toc_title" : "Iniciando",
+					"include_in_navigation" : "true",
+					"include_in_toc" : "true",
+					"background_key" : "default",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "getting_started",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_bold;&&Novo Jogo}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Selecione NOVO JOGO no menu principal e escolha um dos dois compartimentos de gravação disponíveis, chamados CRÔNICA 1 e CRÔNICA 2, para dar início a aventura de Kutaro.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Continuando um Jogo Salvo}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Selecione CONTINUAR no Menu Principal e depois escolha o Programa correspondente para continuar a aventura. Você pode escolher continuar um jogo do meio de uma cena, ou iniciá-lo na tela de seleção de cenas.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Salvando}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:autosave_icon;>>> O Puppeteer™ salva seu progresso automaticamente em vários pontos do jogo, indicados por um ícone giratório na parte inferior direita da tela. Não saia do jogo nem desligue o sistema PlayStation®3 enquanto o ícone de salvamento estiver visível. Se o fizer poderá danificar seu arquivo salvo.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "autosave_icon",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "73",
+									"height" : "73",
+									"h_space" : "10",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "false",
+									"float_under" : "false",
+									"image_key" : "autosave_icon",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "8",
+									"modal_elements" :
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"item" : "CHAPTER",
+					"key" : "controls",
+					"type" : "normal",
+					"header" : "{{P::style_key:chapter_header;&&Controles}}",
+					"toc_title" : "Controles",
+					"include_in_navigation" : "true",
+					"include_in_toc" : "true",
+					"background_key" : "default",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "controls_one_player",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_subheader;&&Um Jogador}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Menus}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Navegar...{▲}/{▼}/{◀}/{▶} }}{{ELL::style_key:page_normal;&&Selecionar item de menu...{S} }}{{ELL::style_key:page_normal;&&Tela anterior...{A} }}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Jogabilidade}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Mover/agachar...controle esquerdo }}{{ELL::style_key:page_normal;&&Pesquisar (apenas para o modo um jogador)...controle direito }}{{ELL::style_key:page_normal;&&Selecionar Cabeça...{◀}/{▶} }}{{ELL::style_key:page_normal;&&Ação da Cabeça...{▼} }}{{ELL::style_key:page_normal;&&Saltar...{S} }}{{ELL::style_key:page_normal;&&Cortar (requer o Calibrus)...{F} }}{{ELL::style_key:page_normal;&&Bomba Ninja (requer os poderes Ninja)...{A} }}{{ELL::style_key:page_normal;&&Garra-gancho (requer os poderes de Pirata)...{D} }}{{ELL::style_key:page_normal;&&Guardar (requer os poderes de Cavaleiro)...{Q} (segurar) }}{{ELL::style_key:page_normal;&&Ataque Estrondoso com Corpo (requer os poderes do wrestler)...{E} }}{{ELL::style_key:page_normal;&&Rolar...{W} }}{{ELL::style_key:page_normal;&&Investigar (apenas para o modo um jogador)...{R} }}{{ELL::style_key:page_normal;&&Pausa...{w} }}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								}
+							]
+						},
+						{
+							"item" : "PAGE",
+							"key" : "controls_two_player",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_subheader;&&Dois Jogadores}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Observação: Um segundo jogador pode assumir o controle da companhia de Kutaro a qualquer momento ativando um segundo controle e pressionando qualquer botão. Você também pode adicionar um segundo jogador manualmente acessando o menu OPÇÕES e selecionando CONFIGURAÇÕES DO JOGADOR.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&& Controle Sem Fio}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Pesquisar...controle esquerdo }}{{ELL::style_key:page_normal;&&Investigar...{A} }}{{ELL::style_key:page_normal;&&Soltar Centelhas da Lua...{E} }}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Controle de movimento PlayStation®Move}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Pesquisar...apontar o controle de movimento }}{{ELL::style_key:page_normal;&&Investigar...{T} }}{{ELL::style_key:page_normal;&&Soltar Centelhas da Lua...{G} }}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								}
+							]
+						}
+					]
+				},
+				{
+					"item" : "CHAPTER",
+					"key" : "game_screen",
+					"type" : "normal",
+					"header" : "{{P::style_key:chapter_header;&&Tela do Jogo}}",
+					"toc_title" : "Tela do Jogo",
+					"include_in_navigation" : "true",
+					"include_in_toc" : "true",
+					"background_key" : "default",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "game_screen",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_bold;&&Cabeças}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/gamescreen;>>>No canto superior esquerdo da tela temos as diferentes Cabeças que você possui. Kutaro pode ter até três Cabeças por vez sob seu controle.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Cronômetro de Centelhas da Lua}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Exibe o número de Centelhas da Lua coletadas. As Centelhas da Lua podem ser pequenas ou grandes. Kutaro ganha uma vida extra por cada 100 Centelhas da Lua que ele coletar.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Vidas}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Mostra o número de vidas restantes. Quando este número chegar a zero o jogo acaba.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Companheiro}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Os amigos aliados de Kutaro podem alcançar áreas que ele não pode, para conseguir itens escondidos. Um segundo jogador pode assumir o controle desse personagem com o controle de movimento PlayStation®Move, ou com um segundo controle sem fio. Consulte a parte “Investigando”, na seção “Como Jogar”, desse manual para mais detalhes.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/gamescreen",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/gamescreen",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/gamescreen"
+									},
+									"modal_elements" :
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"item" : "CHAPTER",
+					"key" : "how_to_play",
+					"type" : "normal",
+					"header" : "{{P::style_key:chapter_header;&&Como Jogar}}",
+					"toc_title" : "Como Jogar",
+					"include_in_navigation" : "true",
+					"include_in_toc" : "true",
+					"background_key" : "default",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "navigation",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_subheader;&&Navegação}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Movimentando-se}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Mova o controle esquerdo para a {◀} ou {▶} para andar na direção desejada. Quanto mais você mover o controle esquerdo, mais rápido Kutaro vai andar.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Agachando}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Pressione e segure o controle esquerdo para {▼} para agachar. Ao agachar-se, Kutaro pode evitar algumas armadilhas e ataques inimigos. Lembre-se: às vezes é melhor ficar de cabeça baixa!}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Pulando}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Pressione {S} para pular, e continue pressionando {S} para pular ainda mais alto. Você pode alterar a direção do pulo de Kutaro movendo o controle esquerdo, mesmo enquanto ele estiver no ar. Após um pulo, Kutaro pode pegar automaticamente uma borda se esta estiver ao seu alcance.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Rolando}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Pressione {W} para rolar pelo chão. Ao rolar, Kutaro pode evitar a maioria dos ataques, até mesmo dos chefes inimigos, ou escapar das armadilhas no último minuto. É um dos movimentos mais úteis de Kutaro para permanecer vivo durante sua aventura.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								}
+							]
+						},
+						{
+							"item" : "PAGE",
+							"key" : "investigating",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_subheader;&&Investigando}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/companion;>>>Em Puppeteer™ todo o mundo é um palco, e há muitas coisas interessantes acontecendo nos bastidores. Os companheiros mágicos de Kutaro podem voar livremente pelo palco, a qualquer momento, e investigar seus arredores, frequentemente encontrando novas recompensas como novas Cabeças, Centelhas da Lua ou outras surpresas.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Um Jogador}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Mova o companheiro de Kutaro pelo palco com o controle direito, e pressione {R} para investigar ou interagir com o ambiente.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Dois Jogadores}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Um segundo jogador pode assumir o controle do companheiro de Kutaro, usando um segundo controle sem fio ou o controle de movimento PlayStation®Move, e ganhar novas habilidades sobre seu parceiro de jogo.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Use o controle esquerdo ou aponte o controle de movimento para mover o companheiro de Kutaro pela tela, e pressione {A} ou {T} para investigar. O segundo jogador pode pegar Centelhas da Lua ao tocar nelas e arrastá-las até Kutaro pressionando {E} ou {G}.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Os companheiros do segundo jogador também podem pegar uma Cabeça solta ou uma Centelha da Lua grande ao voar sobre ela e pressionando {A}. Solte o item pressionando {A} novamente; de preferência onde Kutaro possa pegá-lo com facilidade.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/companion",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/companion",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/companion"
+									},
+									"modal_elements" :
+									[
+									]
+								}
+							]
+						},
+						{
+							"item" : "PAGE",
+							"key" : "calibrus",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_subheader;&&Calibrus}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Calibrus é o nome de um lendário par de tesouras mágicas adquiridas por Kutaro no início de suas aventuras. Ela serve não apenas como arma primária, mas também como uma ferramenta valiosa que ajuda Kutaro a passar por áreas perigosas.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Corte Básico}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/cut;>>>Pressione {F} para cortar, ou pressione {F} rapidamente para cortar rapidamente. Você pode alterar a direção do corte pressionando e segurando o controle esquerdo na direção desejada enquanto pressiona {F}.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Corte Celeste}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/skycut;>>>Pressione {F} enquanto estiver no ar para executar um Corte Celeste. Kutaro automaticamente move-se em direção ao Corte Celeste desde que haja material para o Calibrus fatiar. Pressione {F} rapidamente e mova o controle esquerdo para guiar Kutaro pelo material de corte.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Corte Costura}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/zipcut;>>>Kutaro pode encontrar com frequência costuras de tecido no ambiente. Essas costuras são locais onde Kutaro pode executar um Corte Costura. Pressione {F} para cortar a costura, depois pressione {F} rapidamente para continuar a seguir a linha da costura. Quanto mais rápido você pressionar {F}, mais rápido Kutaro move-se pela costura.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Pressione {S} para saltar de um Corte Fechado a qualquer momento, caso contrário Kutaro sai automaticamente após o fim da costura.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/cut",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/cut",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/cut"
+									},
+									"modal_elements" :
+									[
+									]
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/skycut",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/skycut",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/skycut"
+									},
+									"modal_elements" :
+									[
+									]
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/zipcut",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/zipcut",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/zipcut"
+									},
+									"modal_elements" :
+									[
+									]
+								}
+							]
+						},
+						{
+							"item" : "PAGE",
+							"key" : "basic_heads",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_subheader;&&Cabeças Básicas}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Kutaro pode ter perdido sua cabeça, mas felizmente há muitas outras espalhadas pelo mundo. As cabeças são divididas em dois tipos: as cabeças básicas que podem ser derrubadas dos ombros de Kutaro quando este for atingido por um ataque, e cabeças herói que dão a Kutaro habilidades especiais e ficam com ele para sempre.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&As cabeças básicas podem ser encontradas em qualquer lugar e todas têm uma habilidade exclusiva. Kutaro pode manter até três cabeças básicas por vez, e alternar entre elas livremente pressionando {◀} ou {▶} nos botões de direção. Ao adquirir uma quarta cabeça, a cabeça atual de Kutaro será substituída por ela.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&A cabeça atual de Kutaro é derrubada do seu corpo quando ele é atacado por um inimigo. Faça contato com a cabeça rapidamente para recuperá-la, caso contrário ela vai desaparecer após um curto período de tempo e Kutaro terá que equipar uma das cabeças restantes. Kutaro morre quando perde a última cabeça.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Ações de Cabeça}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/heads;>>>Cada cabeça básica tem uma Ação de Cabeça exclusiva, ativada pressionando {▼} nos botões de direção. Ações de Cabeça podem ser usadas para desbloquear caminhos escondidos, fases bônus ou para descobrir itens escondidos. Procure símbolos no ambiente que correspondam aos ícones de cabeça exibidos na parte superior esquerda da tela e, se você possuir uma cabeça correspondente, ative sua Ação de Cabeça para revelar seus segredos.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Observe que a cabeça que você precisa para acessar uma área escondida pode não estar disponível na fase atual. Kutaro guarda sua coleção de cabeças após as fases, então tente jogar novamente a fase com a cabeça correta para ver o que perdeu.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Poderes}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Há muitas lendas no Reino da Lua que falam sobre guerreiros poderosos que lutaram bravamente contra a revolta do Rei Urso da Lua. Kutaro pode usar os poderes deles nessa sua aventura.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Guardar}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/guard;>>>Kutaro pode defender-se contra ataques inimigos e repelir projéteis inimigos após adquirir os poderes do Cavaleiro. Pressione e segure {Q} para criar um escudo mágico ao redor de Kutaro e mova o controle esquerdo para alterar a direção dos projéteis repelidos.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&O escudo de Kutaro pode suportar três golpes antes de precisar de tempo para recarregar. O escudo muda de cor – de azul para amarelo e depois vermelho – a cada golpe. Seu escudo recarrega automaticamente quando não está em uso.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Bomba do Ninja}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/ninjabomb;>>>Depois que receber os poderes do Ninja, Kutaro pode evocar bombas a qualquer momento. Pressione {A} para arremessar uma bomba, ou pressione {▼} no controle esquerdo e pressione {A} para soltar a bomba aos seus pés.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Fique de olho em ícones de bombas no ambiente. Esses ícones indicam áreas que podem ser explodidas e que contêm recompensas extras e surpresas.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Garra-gancho}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/hookclaw;>>>A habilidade Garra-gancho, obtida ao se conseguir os poderes do Pirata, permite que Kutaro use ganchos e }}{{P::style_key:page_normal;&&outros objetos do ambiente. Pressione e segure o controle esquerdo na direção do seu alvo e pressione {D} para }}{{P::style_key:page_normal;&&disparar a Garra-gancho.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Ataque Estrondoso com Corpo}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&<<<ELEMENT::element_key:screenshots/bodyslam;>>>O poder do Wrestler dá a Kutaro a habilidade de executar um poderoso Ataque Estrondoso com Corpo no solo, abaixo de seus pés, pressionando {E}. Assim como a Bomba do Ninja, procure por ícones de touro no ambiente para encontrar áreas escondidas ou itens que podem ser acessados com o Ataque Estrondoso }}{{P::style_key:page_normal;&&com Corpo.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/heads",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/heads",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/heads"
+									},
+									"modal_elements" :
+									[
+									]
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/guard",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/guard",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/guard"
+									},
+									"modal_elements" :
+									[
+									]
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/ninjabomb",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/ninjabomb",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/ninjabomb"
+									},
+									"modal_elements" :
+									[
+									]
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/hookclaw",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/hookclaw",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/hookclaw"
+									},
+									"modal_elements" :
+									[
+									]
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/bodyslam",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "275",
+									"height" : "184",
+									"h_space" : "20",
+									"v_space" : "0",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "202",
+									"button_overlay_offset_y" : "120",
+									"float_under" : "false",
+									"image_key" : "modal/bodyslam",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "0",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/bodyslam"
+									},
+									"modal_elements" :
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"item" : "CHAPTER",
+					"key" : "main_menu",
+					"type" : "normal",
+					"header" : "{{P::style_key:chapter_header;&&Menu Principal}}",
+					"toc_title" : "Menu Principal",
+					"include_in_navigation" : "true",
+					"include_in_toc" : "true",
+					"background_key" : "default",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "main_menu_pt",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&& <<<ELEMENT::element_key:screenshots/mainmenu_pt;>>>}}{{P::style_key:page_bold;&&Seleção de Fase}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Destaque a opção Seleção de Fase e pressione {◀} ou {▶} para rolar até os Atos disponíveis. Puppeteer™ é dividido em sete Atos, cada um deles com três Cortinas. Complete as três Cortinas de um Ato para avançar até a próxima fase.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Seleção de Fase Bônus}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Cada Ato têm três Fases Bônus escondidas. Você pode jogar novamente as Fases Bônus que tiver desbloqueado nesse menu.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Coleção de Cabeças}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Cada Ato tem seu próprio conjunto de cabeças básicas. Acesse esse menu para visualizar a História da Cabeça e Ações da Cabeça de cada uma das cabeças que encontrou. Pressione {Q}/{E} para alternar entre os diferentes balcões de exibição, selecione uma cabeça, e depois pressione {S} para visualizar seus detalhes.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Livro de Fotos}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Você desbloqueia um novo Livro de Fotos sempre que concluir um Ato. Cada Livro de Fotos traz um clássico infantil, com um toque do Puppeteer™.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								},
+								{
+									"item" : "ELEMENT",
+									"key" : "screenshots/mainmenu_pt",
+									"type" : "image",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "",
+									"html" : "",
+									"width" : "600",
+									"height" : "338",
+									"h_space" : "550",
+									"v_space" : "-30",
+									"scrollable" : "true",
+									"interactive" : "true",
+									"button_overlay_offset_x" : "540",
+									"button_overlay_offset_y" : "280",
+									"float_under" : "false",
+									"image_key" : "modal/mainmenu_pt",
+									"align" : "left",
+									"anchored" : "true",
+									"anchor_offset_x" : "0",
+									"anchor_offset_y" : "-40",
+									"modal_view_type" : "photo_box",
+									"modal_view_data" :
+									{
+										"image_key" : "screenshots/mainmenu_pt"
+									},
+									"modal_elements" :
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"item" : "CHAPTER",
+					"key" : "pause_menu",
+					"type" : "normal",
+					"header" : "{{P::style_key:chapter_header;&&Menu de Pausa}}",
+					"toc_title" : "Menu de Pausa",
+					"include_in_navigation" : "true",
+					"include_in_toc" : "true",
+					"background_key" : "default",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "pause_menu",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_normal;&&Pressione {w} durante o jogo para acessar o menu de pausa.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Continuar}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Saia do menu de pausa e volte ao jogo em andamento.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Opções}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Acesse o menu de Opções, onde você poderá ajustar as configurações de Tela e Áudio, alternar entre os modos Um Jogador e Dois Jogadores, ou recalibrar o controle de movimento.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Controles}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Veja um diagrama dos controles do Puppeteer™.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Seleção um Acto}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Saia da fase atual e volte ao menu de Seleção de Fase para escolher o Ato atual.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Tela de título}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Saia do jogo em andamento e volte ao menu principal.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								}
+							]
+						},
+						{
+							"item" : "PAGE",
+							"key" : "cutscenes",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_subheader;&&Cenas}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Pressionar {w} durante uma cena dá a você um diferente conjunto de opções de menu.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Continuar}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Sair do menu de pausa e voltar à cena em andamento.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&Pular}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Pular a cena atual.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								}
+							]
+						}
+					]
+				},
+				{
+					"item" : "CHAPTER",
+					"key" : "legal_and_warranty",
+					"type" : "normal",
+					"header" : "{{P::style_key:chapter_header;&&TERMOS LEGAIS E GARANTIA}}",
+					"toc_title" : "TERMOS LEGAIS E GARANTIA",
+					"include_in_navigation" : "true",
+					"include_in_toc" : "true",
+					"background_key" : "default",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "legal_and_warranty",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "350",
+								"y" : "390"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-30",
+								"width" : "1200",
+								"height" : "460"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_bold_legal;&&TERMOS LEGAIS}}{{P::style_key:page_legal;&&©2013 Sony Computer Entertainment Inc. Puppeteer i é uma marca comercial da Sony Computer Entertainment America LLC.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold_legal;&&GARANTIA LIMITADA}}{{P::style_key:page_legal;&&A Sony Computer Entertainment America (SCEA) garante ao comprador original deste produto da SCEA que este software está livre de defeitos de matéria-prima e fabricação por um período de 90 (noventa) dias a partir da data original da compra. A SCEA concorda que, durante o período de 90 (noventa) dias, poderá consertar ou substituir, a seu próprio critério, o produto da SCEA.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&Esta garantia não estará em vigor e será cancelada se o defeito no produto da SCEA for devido a abuso, uso não razoável, tratamento errado ou negligência.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&ESTA GARANTIA SUBSTITUI TODAS AS OUTRAS GARANTIAS E NÃO EXISTE NENHUMA OUTRA AFIRMAÇÃO DE NENHUMA NATUREZA QUE VINCULE OU RESPONSABILIZA A SCEA. TODAS AS GARANTIAS IMPLÍCITAS APLICÁVEIS A ESTE SOFTWARE, INCLUINDO GARANTIAS DE COMERCIALIZAÇÃO E ADEQUAÇÃO PARA UM FIM ESPECÍFICO, SÃO LIMITADAS AO PERÍODO DE 90 (NOVENTA) DIAS DESCRITO ACIMA. EM NENHUM CASO A SCEA SERÁ RESPONSÁVEL POR DANOS INDIRETOS OU EMERGENTES RESULTANTES DA POSSE, USO OU MAU FUNCIONAMENTO DESTE SOFTWARE DA SCEA.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&Alguns estados não permitem limitações no período de garantias implícitas e/ou exclusões ou limites em danos emergentes. Portanto, estas limitações e/ou exclusões de responsabilidade podem não valer para você. Esta garantia lhe confere direitos legais específicos e você também pode ter outros direitos que variam de estado para estado.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold_legal;&&USO DE PRODUTO NÃO AUTORIZADO:}}{{P::style_key:page_legal;&&O uso de softwares ou periféricos não autorizados pela Sony Computer Entertainment America pode danifi car o sistema e/ou cancelar a garantia. Somente periféricos oficiais ou licenciados devem ser usados nas portas de controles ou nos soquetes de cartões de memória.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&A cópia, reprodução, aluguel, reprodução ou difusão pública não autorizadas deste jogo são violações das leis em vigor. Todos os direitos de fazer cópias de qualquer porção do jogo e redistribuição subsequente são retidos pelo portador dos direitos autorais.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&Linha de atendimento ao consumidor/assistência técnica: Central de Relacionamento:}}{{P::style_key:page_legal;&&• 4003-7669 para capitais e regiões metropolitanas}}{{P::style_key:page_legal;&&• 0800-880-7669 demais localidades}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&Ligue para esse número se tiver dúvidas técnicas, perguntas sobre a instalação ou perguntas gerais sobre o PS3™ e seus periféricos.}}{{P::style_key:page_legal;&&http://www.sony-latin.com/playstation/}}{{P::style_key:page_legal;&&“PlayStation”, “DUALSHOCK”, e “SIXAXIS” são marcas registadas e “PS3” é uma marca registrada da Sony Computer Entertainment Inc.}}{{P::style_key:page_legal;&&© 2013 Sony Computer Entertainment Inc.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal_small;&&Manual (Digital) tecnologias:}}{{P::style_key:page_legal_small;&&Autodesk and Scaleform are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates in the USA and/or other countries. This software product includes FMOD Ex Sound System by Firelight Technologies.}}",
+									"html" : "",
+									"width" : "1150",
+									"height" : "240"
+								}
+							]
+						}
+					]
+				},
+				{
+					"item" : "CHAPTER",
+					"key" : "warning",
+					"type" : "warning",
+					"header" : "{{P::style_key:chapter_header_warning;&&CUIDADO: FOTOSSENSIBILIDADE/EPILEPSIA/ATAQUES}}",
+					"header_elements" :
+					[
+						{
+							"item" : "ELEMENT",
+							"key" : "warning_icon",
+							"type" : "image",
+							"x" : "0",
+							"y" : "0",
+							"header_text" : "",
+							"text" : "",
+							"html" : "",
+							"width" : "63",
+							"height" : "57",
+							"h_space" : "20",
+							"v_space" : "0",
+							"scrollable" : "true",
+							"interactive" : "false",
+							"float_under" : "false",
+							"image_key" : "warning_icon",
+							"align" : "left",
+							"anchored" : "false",
+							"modal_elements" :
+							[
+							]
+						}
+					],
+					"toc_title" : "CUIDADO",
+					"include_in_navigation" : "false",
+					"include_in_toc" : "true",
+					"background_key" : "warning",
+					"pages" :
+					[
+						{
+							"item" : "PAGE",
+							"key" : "warning",
+							"type" : "free_form",
+							"include_in_toc" : "false",
+							"is_scrollable" : "true",
+							"origin" :
+							{
+								"x" : "130",
+								"y" : "175"
+							},
+							"mask" :
+							{
+								"x" : "-20",
+								"y" : "-10",
+								"width" : "1600",
+								"height" : "734"
+							},
+							"elements" :
+							[
+								{
+									"item" : "ELEMENT",
+									"key" : "flow_text",
+									"type" : "flow_text",
+									"x" : "0",
+									"y" : "0",
+									"header_text" : "",
+									"text" : "{{P::style_key:page_warning;&&Uma pequena porcentagem dos indivíduos pode sofrer ataques epilépticos ou desmaios quando expostos a certos padrões de luzes ou luzes que piscam. A exposição a certos padrões ou imagens de fundo em uma tela de televisão ou ao jogar videogames pode provocar ataques epilépticos ou desmaios nestes indivíduos. Estas condições podem provocar sintomas epilépticos não detectados anteriormente ou ataques em pessoas que não têm histórico de ataques anteriores ou epilepsia. Se você, ou qualquer pessoa de sua família, tem uma condição epiléptica ou teve ataques de qualquer tipo, consulte seu médico antes de jogar. INTERROMPA IMEDIATAMENTE o uso e consulte seu médico antes de voltar a jogar se você ou seu filho sofrer qualquer um dos seguintes problemas de saúde ou sintomas:}}{{P::style_key:page_normal;&& }}{{P::style_key:page_warning;&&• tonturas}}{{P::style_key:page_warning;&&• espasmos nos olhos ou boca}}{{P::style_key:page_warning;&&• desorientação}}{{P::style_key:page_warning;&&• qualquer movimento involuntário ou convulsão }}{{P::style_key:page_warning;&&• visão alterada}}{{P::style_key:page_warning;&&• perda da percepção}}{{P::style_key:page_warning;&&• ataques}}{{P::style_key:page_normal;&& }}{{P::style_key:page_warning;&&SOMENTE VOLTE A JOGAR COM A APROVAÇÃO DE SEU MÉDICO.}}{{P::style_key:page_warning;&&Uso e manuseio de videogames para reduzir a possibilidade de um ataque}}{{P::style_key:page_warning;&&• Use-o em uma área bem iluminada e mantenha-se o mais longe possível da tela da televisão.}}{{P::style_key:page_warning;&&• Evite televisores com telas muito grandes. Use a menor tela de televisão disponível.}}{{P::style_key:page_warning;&&• Evite o uso prolongado do sistema PlayStation®3. Faça um intervalo de 15 minutos a cada hora de jogo.}}{{P::style_key:page_warning;&&• Evite jogar quando estiver cansado ou com sono.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_warning;&&Pare de usar o sistema imediatamente se sofrer quaisquer dos seguintes sintomas: desfalecimento, náusea, ou uma sensação similar a enjôo marítimo; desconforto ou dor nos olhos, ouvidos, mãos, braços ou qualquer outra parte do corpo. Se a condição persistir, consulte um médico.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_warning;&&AVISO:}}{{P::style_key:page_warning;&&Tenha cuidado ao usar a função do sensor de movimento controle sem fio DUALSHOCK®3, prestando atenção aos seguintes pontos. Caso o controle atinja uma pessoa ou objeto, isso poderá causar ferimentos ou danos acidentais. Antes de usar, verifique se há espaço suficiente ao seu redor. Ao utilizar o controle, segure-o firmemente, certificando-se de que ele não escapará da sua mão. Se estiver usando um controle que esteja conectado ao sistema PS3™ por um cabo de USB, verifique se há espaço suficiente para o cabo, de modo que ele não bata em nenhuma pessoa ou objeto. Além disso, tome cuidado para não puxar o cabo para fora do sistema PS3™ enquanto estiver utilizando o controle.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_warning;&&AVISO AOS PROPRIETÁRIOS DE TELEVISORES DE PROJEÇÃO:}}{{P::style_key:page_warning;&&Não conecte o seu sistema PS3™ a um televisor de projeção sem ter consultado o manual do usuário da sua TV de projeção anteriormente, a menos que o televisor seja do tipo LCD. Caso contrário, a conexão poderá danificar permanentemente a tela da sua TV.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_warning;&&MANUSEIO DO DISCO DE FORMATO DO SEU PS3™:}}{{P::style_key:page_warning;&&• Não dobre-o, esmague-o ou mergulhe-o em líquidos. }}{{P::style_key:page_warning;&&• Não deixe-o exposto à luz solar direta ou próximo de um aquecedor ou outra fonte de calor. }}{{P::style_key:page_warning;&&• Faça intervalos de descanso durante sessões intensas de jogos. }}{{P::style_key:page_warning;&&• Mantenha o disco limpo. Segure-o sempre pelas bordas e mantenha-o dentro da capa protetora enquanto ele não estiver sendo usado. Limpe o disco com um pano macio e seco, enxugando em linhas retas do centro para a borda externa. Jamais utilize solventes ou produtos de limpeza abrasivos.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_warning;&&Linha de atendimento ao consumidor/assistência técnica: Central de Relacionamento:}}{{P::style_key:page_warning;&&• 4003-7669 para capitais e regiões metropolitanas}}{{P::style_key:page_warning;&&• 0800-880-7669 demais localidades}}",
+									"html" : "",
+									"width" : "1540",
+									"height" : "240"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+
+
+	}
+}

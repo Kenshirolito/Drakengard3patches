@@ -1,0 +1,192 @@
+<!--Sce-Np-Trophy-Signature: 4c39b98c01000000000000008b55b51d192b0fa264746fb8c3b82c8804b87bfec19b7f6d2ef09f3dbcbfeebd9303336a2819eadf124f45374cdb45a10c331c6cabd1756e78a40c559f5a57e45643d59999e8e2b97702aab36d8ab6eec9c1461c56114d82063f68332fe1231ab16d7f8084a60e9b3b79046b5e3f922612e7395e71bef5751c62d250c560120d47545614b1510bd174bebf89fbe781f08b3f010b-->
+<trophyconf version="1.1" policy="large">
+ <npcommid>NPWR04811_00</npcommid>
+ <trophyset-version>01.00</trophyset-version>
+ <parental-level license-area="default">0</parental-level>
+ <title-name>El Chavo Kart</title-name>
+ <title-detail>El Chavo Kart: Paquete de trofeos.</title-detail>
+ <trophy id="000" hidden="no" ttype="P" pid="-1">
+  <name>¡Qué bonita vecindad!</name>
+  <detail>Gana todos los trofeos de El Chavo Kart.  </detail>
+ </trophy>
+ <trophy id="001" hidden="no" ttype="B" pid="000">
+  <name>¡Se me chispoteó!</name>
+  <detail>Defiéndete de un ítem de ataque usando la chicharra en un reto.</detail>
+ </trophy>
+ <trophy id="002" hidden="no" ttype="B" pid="000">
+  <name>Al cabo que ni quería.</name>
+  <detail>Utiliza la chicharra para evitar ataques de ítems 50 veces.</detail>
+ </trophy>
+ <trophy id="003" hidden="no" ttype="B" pid="000">
+  <name>Bueno, ¡Pero no se enoje!</name>
+  <detail>Salta sobre un contrincante y gana turbo al pisarlo 50 veces.</detail>
+ </trophy>
+ <trophy id="004" hidden="no" ttype="B" pid="000">
+  <name>Humilde obsequio.</name>
+  <detail>Golpea a un contrincante con una piñata que dejes en la pista 25 veces. </detail>
+ </trophy>
+ <trophy id="005" hidden="no" ttype="B" pid="000">
+  <name>Sueño sereno.</name>
+  <detail>Defiéndete de un ítem de ataque con la almohada 25 veces.</detail>
+ </trophy>
+ <trophy id="006" hidden="no" ttype="B" pid="000">
+  <name>Bien informado.</name>
+  <detail>Haz que un contrincante lea las últimas noticias del periódico 10 veces.</detail>
+ </trophy>
+ <trophy id="007" hidden="no" ttype="B" pid="000">
+  <name>¡Enchilado!</name>
+  <detail>Come 25 chiles rojos.</detail>
+ </trophy>
+ <trophy id="008" hidden="no" ttype="S" pid="000">
+  <name>Zas, zas, zas.</name>
+  <detail>Tapea más de 27 veces activando el turbo de la Torta de Jamón.  </detail>
+ </trophy>
+ <trophy id="009" hidden="no" ttype="S" pid="000">
+  <name>Huesito de Chabacano.</name>
+  <detail>Salta en secuencia a 3 competidores en una carrera multijugador de 4.</detail>
+ </trophy>
+ <trophy id="010" hidden="no" ttype="B" pid="000">
+  <name>Pase Ud., después de Ud.</name>
+  <detail>Salta sobre el kart del Profesor Jirafales usando el de Doña Florinda.</detail>
+ </trophy>
+ <trophy id="011" hidden="no" ttype="B" pid="000">
+  <name>Síguele eh, síguele.</name>
+  <detail>Acumula el tercer nivel de turbo derrapando en un reto.</detail>
+ </trophy>
+ <trophy id="012" hidden="no" ttype="G" pid="000">
+  <name>¡Sale y vale!</name>
+  <detail>Carga el turbo nivel 3 derrapando 500 veces.</detail>
+ </trophy>
+ <trophy id="013" hidden="no" ttype="S" pid="000">
+  <name>¡Toditititico!</name>
+  <detail>Acumula el máximo turbo derrapando y úsalo completo 25 veces.</detail>
+ </trophy>
+ <trophy id="014" hidden="no" ttype="B" pid="000">
+  <name>¡Yo no fui!</name>
+  <detail>Gana en dificultad extrema sin tocar los bordes de la pista con Godínez.</detail>
+ </trophy>
+ <trophy id="015" hidden="no" ttype="B" pid="000">
+  <name>¡Con permisito dijo Monchito!</name>
+  <detail>Sobrepasa a un contrincante utilizando el túnel de viento hasta el último momento en un reto.</detail>
+ </trophy>
+ <trophy id="016" hidden="no" ttype="S" pid="000">
+  <name>¡No más eso me faltaba!</name>
+  <detail>Usa todos los ítems de El Chavo Kart.</detail>
+ </trophy>
+ <trophy id="017" hidden="no" ttype="B" pid="000">
+  <name>¡No te doy otra nomás!</name>
+  <detail>Embiste a un rival en un reto.</detail>
+ </trophy>
+ <trophy id="018" hidden="no" ttype="S" pid="000">
+  <name>¡Tenga, tenga, tenga y tenga!</name>
+  <detail>Embiste a otros competidores 250 veces.</detail>
+ </trophy>
+ <trophy id="019" hidden="no" ttype="B" pid="000">
+  <name>¿Estás haciendo méritos?</name>
+  <detail>Gana alguna insignia dorada al final de una carrera en una copa.</detail>
+ </trophy>
+ <trophy id="020" hidden="no" ttype="S" pid="000">
+  <name>¡Mira nada más, mira nada más!</name>
+  <detail>Gana una insignia dorada al final de una carrera multijugador. Solo el jugador principal.</detail>
+ </trophy>
+ <trophy id="021" hidden="no" ttype="S" pid="000">
+  <name>¡Ahora sí te tocó el ocho!</name>
+  <detail>Gana todas las insignias doradas.</detail>
+ </trophy>
+ <trophy id="022" hidden="no" ttype="B" pid="000">
+  <name>En construcción.</name>
+  <detail>Salta el puente sin terminar en la pista Chavoltepec en un reto.</detail>
+ </trophy>
+ <trophy id="023" hidden="no" ttype="S" pid="000">
+  <name>¡Pasaba por aquí!</name>
+  <detail>Gana una competencia sin tocar los aceleradores de la pista. </detail>
+ </trophy>
+ <trophy id="024" hidden="no" ttype="B" pid="000">
+  <name>Evitando la fatiga.</name>
+  <detail>Evita chocar con los ciclistas y gana la competencia en la pista de Tangamandapio.</detail>
+ </trophy>
+ <trophy id="025" hidden="no" ttype="S" pid="000">
+  <name>Túnel del amor.</name>
+  <detail>Gana una competencia en La Feria saltando siempre sobre los gansos.</detail>
+ </trophy>
+ <trophy id="026" hidden="no" ttype="B" pid="000">
+  <name>Un carrusel de emociones.</name>
+  <detail>Gana en La Feria sin caerte de la montaña rusa en dificultad extrema</detail>
+ </trophy>
+ <trophy id="027" hidden="no" ttype="B" pid="000">
+  <name>El mejor "Jogador".</name>
+  <detail>Gana el reto El barril correcto sin tocar los barriles explosivos.</detail>
+ </trophy>
+ <trophy id="028" hidden="no" ttype="B" pid="000">
+  <name>No me simpatizas.</name>
+  <detail>Golpea al vendedor de tacos 50 veces.</detail>
+ </trophy>
+ <trophy id="029" hidden="no" ttype="B" pid="000">
+  <name>¡Le va a dar la garrotera!</name>
+  <detail>Haz que los murciélagos en la pista del Castillo estrellen un rival.</detail>
+ </trophy>
+ <trophy id="030" hidden="no" ttype="S" pid="000">
+  <name>¡Vacacionando!</name>
+  <detail>Golpea 2 botones de los hoteles en Acapulco y gana en dificultad extrema.</detail>
+ </trophy>
+ <trophy id="031" hidden="no" ttype="S" pid="000">
+  <name>Qué cosas, ¿no?</name>
+  <detail>Gana sin chocar los obstáculos de una pista en dificultad extrema.</detail>
+ </trophy>
+ <trophy id="032" hidden="no" ttype="B" pid="000">
+  <name>Juego de chavos.</name>
+  <detail>Termina una carrera tradicional con otros 3 competidores humanos.</detail>
+ </trophy>
+ <trophy id="033" hidden="no" ttype="S" pid="000">
+  <name>Toditíca la vecindad.</name>
+  <detail>Desbloquea a todos los personajes de El Chavo Kart.</detail>
+ </trophy>
+ <trophy id="034" hidden="no" ttype="S" pid="000">
+  <name>Chavito viajero.</name>
+  <detail>Desbloquea todas las pistas de El Chavo Kart.</detail>
+ </trophy>
+ <trophy id="035" hidden="no" ttype="G" pid="000">
+  <name>Eso, eso, eso.</name>
+  <detail>Completa todos los retos de El Chavo Kart.</detail>
+ </trophy>
+ <trophy id="036" hidden="no" ttype="B" pid="000">
+  <name>Sin querer queriendo.</name>
+  <detail>Gana la copa Platino del Chavo.</detail>
+ </trophy>
+ <trophy id="037" hidden="no" ttype="B" pid="000">
+  <name>Una tacita de café.</name>
+  <detail>Gana la copa Platino de El Profesor Jirafales.</detail>
+ </trophy>
+ <trophy id="038" hidden="no" ttype="B" pid="000">
+  <name>Me Lleva el Chanfle.</name>
+  <detail>Gana la copa Platino de Don Ramón.</detail>
+ </trophy>
+ <trophy id="039" hidden="no" ttype="B" pid="000">
+  <name>¡Brujería!</name>
+  <detail>Gana la copa Platino de Doña Clotilde.</detail>
+ </trophy>
+ <trophy id="040" hidden="no" ttype="B" pid="000">
+  <name>Dedicada a Serafina.</name>
+  <detail>Gana la copa Platino de Popis.</detail>
+ </trophy>
+ <trophy id="041" hidden="no" ttype="B" pid="000">
+  <name>Renta cobrada.</name>
+  <detail>Gana la copa Platino del Señor Barriga.</detail>
+ </trophy>
+ <trophy id="042" hidden="no" ttype="B" pid="000">
+  <name>¿Quieres? ¡Compra!</name>
+  <detail>Gana la copa Platino de Quico.</detail>
+ </trophy>
+ <trophy id="043" hidden="no" ttype="S" pid="000">
+  <name>Diente de Oro.</name>
+  <detail>Gana la copa Platino de Rufino Malacara.</detail>
+ </trophy>
+ <trophy id="044" hidden="no" ttype="B" pid="000">
+  <name>Retrospectiva.</name>
+  <detail>Gana una carrera compitiendo siempre con el retrovisor activado. </detail>
+ </trophy>
+ <trophy id="045" hidden="no" ttype="S" pid="000">
+  <name>Día de los muertos.</name>
+  <detail>Golpea dos catrinas del castillo y gana en dificultad extrema.</detail>
+ </trophy>
+</trophyconf>

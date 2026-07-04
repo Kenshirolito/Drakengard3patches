@@ -1,0 +1,64 @@
+<!--Sce-Np-Trophy-Signature: 4c39b98c010000000000000052130779f88470af16e3aa047e728523412e1f640ff1f6e4a68813c56b8dc2b51711eab51973b00d8dfb22cf354754a63eb1c9461a1b4091387236b508c7485e58e6778dd5911ceac1be2e32cd3c4bd014f89532237a8a9c31757310e7a2d11498aa37cad63a6a1232e00995f627c938583d42d805c194f717104ba94131f754c912c19a170e4439e2ada72e77d6cf7e3bed0fcc-->
+<trophyconf version="1.1">
+ <npcommid>NPWR02654_00</npcommid>
+ <trophyset-version>01.00</trophyset-version>
+ <parental-level license-area="default">0</parental-level>
+ <title-name>inFamous: Festival of Blood</title-name>
+ <title-detail>Conjunto de trofeos de inFamous: Festival of Blood</title-detail>
+ <trophy id="000" hidden="no" ttype="G" pid="-1">
+  <name>Colmillos para jugar</name>
+  <detail>Derrota a Bloody Mary.</detail>
+ </trophy>
+ <trophy id="001" hidden="no" ttype="S" pid="-1">
+  <name>Enganchado a la sangre</name>
+  <detail>Recoge todos los vasos canopes y llena por completo tu indicador de sangre.</detail>
+ </trophy>
+ <trophy id="002" hidden="no" ttype="S" pid="-1">
+  <name>Citas sangrientas</name>
+  <detail>Descubre todas las enseñanzas de Mary.</detail>
+ </trophy>
+ <trophy id="003" hidden="no" ttype="B" pid="-1">
+  <name>Conde DráCole</name>
+  <detail>Desbloquea todos los poderes.</detail>
+ </trophy>
+ <trophy id="004" hidden="no" ttype="B" pid="-1">
+  <name>Todo completo</name>
+  <detail>Clava la estaca a 20 vampiros primogénitos ocultos.</detail>
+ </trophy>
+ <trophy id="005" hidden="no" ttype="B" pid="-1">
+  <name>Banco de sangre</name>
+  <detail>Recoge la mitad de los vasos canopes.</detail>
+ </trophy>
+ <trophy id="006" hidden="no" ttype="B" pid="-1">
+  <name>Noche de vuelo</name>
+  <detail>Haz un vuelo de 250 metros como enjambre de sombra.</detail>
+ </trophy>
+ <trophy id="007" hidden="no" ttype="B" pid="-1">
+  <name>El club del mordisco</name>
+  <detail>Muerde a 100 ciudadanos.</detail>
+ </trophy>
+ <trophy id="008" hidden="no" ttype="B" pid="-1">
+  <name>Visita subterránea</name>
+  <detail>Vuelve bajo tierra cuando no haya misiones activas y viaja de una punta a otra de las catacumbas.</detail>
+ </trophy>
+ <trophy id="009" hidden="no" ttype="B" pid="-1">
+  <name>Con la estaca en alto</name>
+  <detail>Clava la estaca a 100 vampiros.</detail>
+ </trophy>
+ <trophy id="010" hidden="no" ttype="B" pid="-1">
+  <name>Complejo de Hindenburg</name>
+  <detail>Destruye un globo.</detail>
+ </trophy>
+ <trophy id="011" hidden="no" ttype="B" pid="-1">
+  <name>Cena de exhibición</name>
+  <detail>Muerde a un participante de un desfile.</detail>
+ </trophy>
+ <trophy id="012" hidden="no" ttype="B" pid="-1">
+  <name>Dales y que les den</name>
+  <detail>Acaba con 20 hordas de vampiros.</detail>
+ </trophy>
+ <trophy id="013" hidden="no" ttype="B" pid="-1">
+  <name>Juega. Crea. Aterra.</name>
+  <detail>Juega a 20 misiones de contenido de usuario de Festival of Blood.</detail>
+ </trophy>
+</trophyconf>

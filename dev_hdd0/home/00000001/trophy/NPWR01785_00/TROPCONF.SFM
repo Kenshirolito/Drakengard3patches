@@ -1,0 +1,260 @@
+<!--Sce-Np-Trophy-Signature: 4c39b98c01000000000000000e709e3ce8249a79efb7123677380d5e3c8a2b8d83894419e9d0694213c1c43793a359445727106bb54633611681eca4eb5f4a5872dd727b727dcb9083dfef188c3b542d1aeb50a0e7e80d87441e6fad46e6db938935a3e89eb1c57d843036b66548475b166c42d46302bbdf4168fee25136044c5fdd04476eb6641c6e216013b62f2b3d3d628fe10ce8d94bc68fc51ce06a645a-->
+<trophyconf version="1.1" policy="large">
+ <npcommid>NPWR01785_00</npcommid>
+ <trophyset-version>01.01</trophyset-version>
+ <parental-level license-area="default">0</parental-level>
+ <title-name>Puppeteer™</title-name>
+ <title-detail>Trofeos de Puppeteer™</title-detail>
+ <trophy id="000" hidden="yes" ttype="P" pid="-1">
+  <name>Mejor Actor</name>
+  <detail>Desbloquea todos los trofeos</detail>
+ </trophy>
+ <trophy id="001" hidden="yes" ttype="B" pid="000">
+  <name>Recapitado</name>
+  <detail>Obtén tu primera cabeza</detail>
+ </trophy>
+ <trophy id="002" hidden="yes" ttype="B" pid="000">
+  <name>Lo que trajo el gato</name>
+  <detail>Investiga el entorno por primera vez</detail>
+ </trophy>
+ <trophy id="003" hidden="yes" ttype="B" pid="000">
+  <name>Calibrus liberada</name>
+  <detail>Haz tu primer corte con Calibrus</detail>
+ </trophy>
+ <trophy id="004" hidden="yes" ttype="B" pid="000">
+  <name>Buscador de Almas</name>
+  <detail>Rescata tu primer alma</detail>
+ </trophy>
+ <trophy id="005" hidden="no" ttype="B" pid="000">
+  <name>Doble problema</name>
+  <detail>Juega con un amigo por primera vez</detail>
+ </trophy>
+ <trophy id="006" hidden="yes" ttype="B" pid="000">
+  <name>Un dolor de muelas salvaje</name>
+  <detail>Derrota al general Tigre</detail>
+ </trophy>
+ <trophy id="007" hidden="yes" ttype="B" pid="000">
+  <name>Muerte de una Rata Vendedora</name>
+  <detail>Derrota al general Rata</detail>
+ </trophy>
+ <trophy id="008" hidden="yes" ttype="B" pid="000">
+  <name>El largo viaje de Serpiente al Infierno</name>
+  <detail>Derrota al general Serpiente</detail>
+ </trophy>
+ <trophy id="009" hidden="yes" ttype="B" pid="000">
+  <name>Demasiados cerdos y ovejas</name>
+  <detail>Derrota a los generales Cerdo y Ovejo</detail>
+ </trophy>
+ <trophy id="010" hidden="yes" ttype="B" pid="000">
+  <name>La Pareja Defectuosa</name>
+  <detail>Derrota a la general Yegua</detail>
+ </trophy>
+ <trophy id="011" hidden="yes" ttype="B" pid="000">
+  <name>Domando al Muu</name>
+  <detail>Derrota al general Toro</detail>
+ </trophy>
+ <trophy id="012" hidden="yes" ttype="B" pid="000">
+  <name>Perro con corta correa de Alumino</name>
+  <detail>Derrota al general Perro</detail>
+ </trophy>
+ <trophy id="013" hidden="yes" ttype="B" pid="000">
+  <name>Ladrido de Violinista</name>
+  <detail>Derrota al general Roboperro</detail>
+ </trophy>
+ <trophy id="014" hidden="yes" ttype="B" pid="000">
+  <name>Adiós, conejito, adiós</name>
+  <detail>Derrota al general Conejo</detail>
+ </trophy>
+ <trophy id="015" hidden="yes" ttype="B" pid="000">
+  <name>La Jaula de los Gallos</name>
+  <detail>Derrota al general Gallo</detail>
+ </trophy>
+ <trophy id="016" hidden="yes" ttype="B" pid="000">
+  <name>Algo gracioso pasó en el camino hacia el Dragón</name>
+  <detail>Derrota al general Dragón</detail>
+ </trophy>
+ <trophy id="017" hidden="yes" ttype="B" pid="000">
+  <name>Monadas espaciales</name>
+  <detail>Derrota al general Mono</detail>
+ </trophy>
+ <trophy id="018" hidden="yes" ttype="B" pid="000">
+  <name>La caída del Oso</name>
+  <detail>Derrota al Rey Oso Luna/r</detail>
+ </trophy>
+ <trophy id="019" hidden="no" ttype="B" pid="000">
+  <name>Brillante</name>
+  <detail>Recoge todas las chispas/destellos grandes usando a Kutaro</detail>
+ </trophy>
+ <trophy id="020" hidden="no" ttype="B" pid="000">
+  <name>Bonus Maximus</name>
+  <detail>Completa todos los niveles de bonus dentro del tiempo límite</detail>
+ </trophy>
+ <trophy id="021" hidden="no" ttype="B" pid="000">
+  <name>¿Genio podador?</name>
+  <detail>Haz 10.000 cortes con Calibrus</detail>
+ </trophy>
+ <trophy id="022" hidden="no" ttype="B" pid="000">
+  <name>Es un Trabajo Sucio, pero…</name>
+  <detail>Derrota a 1.000 larvas/gorgojos</detail>
+ </trophy>
+ <trophy id="023" hidden="no" ttype="B" pid="000">
+  <name>Gravedad lunar</name>
+  <detail>Corta 100 veces las larvas/gorgojos para hacer malabares en el aire</detail>
+ </trophy>
+ <trophy id="024" hidden="no" ttype="B" pid="000">
+  <name>Súper Maestro del Desvío Caballeroso</name>
+  <detail>Realiza con éxito 300 guardias</detail>
+ </trophy>
+ <trophy id="025" hidden="no" ttype="B" pid="000">
+  <name>Súper Maestro Ninjitsu Kablooey</name>
+  <detail>Derrota a 3 larvas/gorgojos con una sola bomba</detail>
+ </trophy>
+ <trophy id="026" hidden="no" ttype="B" pid="000">
+  <name>Súper Maestro Luchador del Pancake</name>
+  <detail>Aplasta a 30 larvas/gorgojos</detail>
+ </trophy>
+ <trophy id="027" hidden="no" ttype="B" pid="000">
+  <name>Súper Maestro Bucanero del Combate</name>
+  <detail>Derrota 100 larvas/gorgojos después de enrollarlas con el Garfio</detail>
+ </trophy>
+ <trophy id="028" hidden="no" ttype="B" pid="000">
+  <name>El Otro Circo Volador</name>
+  <detail>Realiza 20 Turbocortes consecutivos sin tocar el suelo</detail>
+ </trophy>
+ <trophy id="029" hidden="no" ttype="B" pid="000">
+  <name>Ataque Perfecto</name>
+  <detail>Libera todas las almas de todos los tejedores sin dejarlos recuperarse</detail>
+ </trophy>
+ <trophy id="030" hidden="no" ttype="B" pid="000">
+  <name>¡Yo te sustituyo!</name>
+  <detail>JUGADOR 2: Derrota a 50 larvas/gorgojos</detail>
+ </trophy>
+ <trophy id="031" hidden="no" ttype="B" pid="000">
+  <name>Guía a los Destellochispohólicos</name>
+  <detail>Recoge 10.000 destellos/chispas de Luna</detail>
+ </trophy>
+ <trophy id="032" hidden="no" ttype="B" pid="000">
+  <name>Apoyando a los Destellochispohólicos</name>
+  <detail>JUGADOR 2: Recoge 3.000 destellos/chispas de Luna</detail>
+ </trophy>
+ <trophy id="033" hidden="no" ttype="B" pid="000">
+  <name>La regla de los tres segundos</name>
+  <detail>Recoge 100 veces tu cabeza caída</detail>
+ </trophy>
+ <trophy id="034" hidden="yes" ttype="B" pid="000">
+  <name>Cazador de Cabezas</name>
+  <detail>Encuentra 50 tipos de cabezas</detail>
+ </trophy>
+ <trophy id="035" hidden="yes" ttype="S" pid="000">
+  <name>Acaparador de Cabezas</name>
+  <detail>Encuentra todos los tipos de cabezas</detail>
+ </trophy>
+ <trophy id="036" hidden="yes" ttype="B" pid="000">
+  <name>Gran Buscador de Almas</name>
+  <detail>Rescata una tonelada de almas cautivas</detail>
+ </trophy>
+ <trophy id="037" hidden="yes" ttype="S" pid="000">
+  <name>El Mejor Buscador de Almas</name>
+  <detail>Rescata a todas las almas cautivas</detail>
+ </trophy>
+ <trophy id="038" hidden="no" ttype="B" pid="000">
+  <name>Lee Entre Líneas</name>
+  <detail>Lee todos los libros de imágenes</detail>
+ </trophy>
+ <trophy id="039" hidden="no" ttype="B" pid="000">
+  <name>El Tirano interior del Tirano</name>
+  <detail>Abre completamente la muñeca matrioska del Rey Oso Luna</detail>
+ </trophy>
+ <trophy id="040" hidden="no" ttype="B" pid="000">
+  <name>Éxodo Masivo</name>
+  <detail>Libera 22 niños marionetas en una sola partida</detail>
+ </trophy>
+ <trophy id="041" hidden="no" ttype="B" pid="000">
+  <name>La Crueldad de la Juventud</name>
+  <detail>Convierte todas las orugas en mariposas, luego córtalas</detail>
+ </trophy>
+ <trophy id="042" hidden="no" ttype="B" pid="000">
+  <name>Vuela, Beta Kappa</name>
+  <detail>Derrota al Kappagaeru sin tocar el suelo</detail>
+ </trophy>
+ <trophy id="043" hidden="no" ttype="B" pid="000">
+  <name>Toda ardilla tiene sus espinas</name>
+  <detail>Haz enfadar a la madre de todas las ardillas</detail>
+ </trophy>
+ <trophy id="044" hidden="no" ttype="B" pid="000">
+  <name>Ingenuo Predecible</name>
+  <detail>Dispara a todas las gaviotas usando los cañones de la cubierta</detail>
+ </trophy>
+ <trophy id="045" hidden="no" ttype="B" pid="000">
+  <name>Como calamar en el agua</name>
+  <detail>No te hagas daño cuando viajas en calamar</detail>
+ </trophy>
+ <trophy id="046" hidden="no" ttype="B" pid="000">
+  <name>Cabherd: Pastor de Cangrejos</name>
+  <detail>Mantén a todos los cangrejos bebés a salvo</detail>
+ </trophy>
+ <trophy id="047" hidden="no" ttype="B" pid="000">
+  <name>Mal comportamiento flagrante</name>
+  <detail>Molesta a la Bruja en el ring</detail>
+ </trophy>
+ <trophy id="048" hidden="no" ttype="B" pid="000">
+  <name>¡Animal excavador!</name>
+  <detail>Salva a los habitantes del Salvaje Desperdicio</detail>
+ </trophy>
+ <trophy id="049" hidden="no" ttype="B" pid="000">
+  <name>Jockey fustigador</name>
+  <detail>Gana la carrera al tren sin hacerte daño</detail>
+ </trophy>
+ <trophy id="050" hidden="no" ttype="B" pid="000">
+  <name>¿Esa es una Máscara, o es Tu Cara?</name>
+  <detail>Echa un vistazo a la vida hogareña de todos los luchadores</detail>
+ </trophy>
+ <trophy id="051" hidden="no" ttype="B" pid="000">
+  <name>El rescate del barrilete</name>
+  <detail>Encuentra la ruta secreta mientras estás a dieta</detail>
+ </trophy>
+ <trophy id="052" hidden="no" ttype="B" pid="000">
+  <name>El Blues de Nosferatu</name>
+  <detail>Escucha todo el discurso de Drácula</detail>
+ </trophy>
+ <trophy id="053" hidden="no" ttype="B" pid="000">
+  <name>Un Discurso para Oídos Sensibles</name>
+  <detail>Cánsate oyendo al Señor Rosa/do</detail>
+ </trophy>
+ <trophy id="054" hidden="no" ttype="B" pid="000">
+  <name>Cállalos de una vez</name>
+  <detail>Derriba a todos los escuadrones de palomas</detail>
+ </trophy>
+ <trophy id="055" hidden="no" ttype="B" pid="000">
+  <name>No hay ningún dragón pisándote los talones</name>
+  <detail>Llega hasta el lomo del General Dragón sin que te hagas daño</detail>
+ </trophy>
+ <trophy id="056" hidden="no" ttype="B" pid="000">
+  <name>En las Rocas</name>
+  <detail>Reúne a todos los habitantes del iceberg para un brindis</detail>
+ </trophy>
+ <trophy id="057" hidden="no" ttype="B" pid="000">
+  <name>... ¿Pero sabes estacionar en paralelo?</name>
+  <detail>Atraviesa el Espacio Exterior sin que te hagas daño</detail>
+ </trophy>
+ <trophy id="058" hidden="yes" ttype="S" pid="000">
+  <name>Las Lágrimas de los Zapatos de Madera</name>
+  <detail>Sé testigo del final de cada una de las marionetas fugitivas</detail>
+ </trophy>
+ <trophy id="059" hidden="yes" ttype="B" pid="000">
+  <name>Lunacadabrazoo</name>
+  <detail>Mira como la Bruja Luna/r transforma a Pikarina y a Ying Yang en todas las formas posibles</detail>
+ </trophy>
+ <trophy id="060" hidden="no" ttype="G" pid="000">
+  <name>Eso sí que es usar la cabeza (je, je)</name>
+  <detail>Usa correctamente todas las acciones con las cabezas</detail>
+ </trophy>
+ <trophy id="061" hidden="yes" ttype="B" pid="000">
+  <name>Tricéfalo</name>
+  <detail>Ármate con tres cabezas iguales</detail>
+ </trophy>
+ <trophy id="062" hidden="yes" ttype="B" pid="000">
+  <name>¿Quién Necesita Enemigos?</name>
+  <detail>JUGADOR 2: Lanza 10 veces la Cabeza del Jugador 1</detail>
+ </trophy>
+</trophyconf>
