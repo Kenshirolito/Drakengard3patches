@@ -1,5 +1,8 @@
 # Traducción en Español: Drakengard 3
 
-## 📖 Estado actual del proyecto
+Descargar el Parche:
+https://farolito.neocities.org/traduccion-drakengard-3/
 
-La traducción al español de **Drakengard 3** se encuentra **prácticamente terminada**. La gran mayoría de los textos del juego han sido traducidos y revisados manualmente para ofrecer una experiencia lo más fiel y natural posible.
+## Estado actual del repositorio
+
+Como la traduccion ya fue publicada el codigo fuente no es necesario por ello empece a usarlo mejor para subir mujeres pelonas
