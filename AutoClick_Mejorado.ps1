@@ -23,7 +23,7 @@ $form.Controls.Add($title)
 
 # --- Botón Activar Traducción ---
 $btnTranslate = New-Object System.Windows.Forms.Button
-$btnTranslate.Text = "ACTIVAR TRADUCCIÓN"
+$btnTranslate.Text = "INSTALAR TRADUCCIÓN"
 $btnTranslate.Font = New-Object System.Drawing.Font("Segoe UI", 14, [System.Drawing.FontStyle]::Bold)
 $btnTranslate.Size = New-Object System.Drawing.Size(320, 70)
 $btnTranslate.Location = New-Object System.Drawing.Point(152, 220)
@@ -43,7 +43,7 @@ $statusLabel.Size = New-Object System.Drawing.Size(600, 30)
 $statusLabel.Location = New-Object System.Drawing.Point(12, 320)
 $form.Controls.Add($statusLabel)
 
-# --- Lógica de Instalación y Reestructuración ---
+# --- Lógica de Instalación, Reestructuración y Partool ---
 function Instalar-Archivos {
     $baseDirectory = $PSScriptRoot
     if ([string]::IsNullOrEmpty($baseDirectory)) {
@@ -67,7 +67,6 @@ function Instalar-Archivos {
     }
 
     # Estructura según la planilla:
-    # Renombrado (Archivo actual en ejecutable) -> Original (Nuevo nombre) -> Subruta desde PS3_GAME
     $archivos = @(
         @{ Renombrado = "2021428.pak"; Original = "PIC1.PNG";     SubRuta = "" },
         @{ Renombrado = "6661971.pak"; Original = "c01_010.usm"; SubRuta = "USRDIR\movie" },
@@ -94,12 +93,10 @@ function Instalar-Archivos {
 
         if (Test-Path $pathOrigen) {
             try {
-                # Crear la subcarpeta (USRDIR\movie, USRDIR\auth, etc.) si no existe
                 if (-not (Test-Path $carpetaDestino)) {
                     New-Item -ItemType Directory -Path $carpetaDestino -Force | Out-Null
                 }
 
-                # Mover el archivo cambiando su nombre al original
                 Move-Item -Path $pathOrigen -Destination $pathDestino -Force
                 $exitos++
             } catch {
@@ -110,18 +107,40 @@ function Instalar-Archivos {
         }
     }
 
-    if ($exitos -gt 0 -and $errores -eq 0) {
-        $statusLabel.Text = "¡Traducción aplicada con éxito en PS3_GAME!"
-        $statusLabel.ForeColor = [System.Drawing.Color]::LimeGreen
-        [System.Windows.Forms.MessageBox]::Show("Se han procesado los $exitos archivos correctamente.", "¡Éxito!", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
-    } elseif ($exitos -gt 0 -and $errores -gt 0) {
-        $statusLabel.Text = "Instalación parcial. Faltaron algunos archivos."
-        $statusLabel.ForeColor = [System.Drawing.Color]::Orange
-        [System.Windows.Forms.MessageBox]::Show("Se movieron $exitos archivos, pero $errores no se encontraron o fallaron.", "Aviso", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+    # --- Lógica de empacado con Partool.exe ---
+    $partoolExe = Join-Path $baseDirectory "TMP\PS3_GAME\USRDIR\data\Partool.exe"
+    $carpetaHact = Join-Path $baseDirectory "TMP\PS3_GAME\USRDIR\data\hact.par.unpack"
+
+    if ((Test-Path $partoolExe) -and (Test-Path $carpetaHact)) {
+        try {
+            $statusLabel.Text = "Procesando hact.par.unpack con Partool.exe..."
+            
+            # Equivale a arrastrar la carpeta hacia Partool.exe
+            $process = Start-Process -FilePath $partoolExe -ArgumentList "`"$carpetaHact`"" -WorkingDirectory $baseDirectory -PassThru -Wait
+        } catch {
+            [System.Windows.Forms.MessageBox]::Show("Error al ejecutar Partool.exe:`n$($_.Exception.Message)", "Error de ejecución", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
+        }
     } else {
-        $statusLabel.Text = "Faltan los archivos renombrados (.pak) para instalar."
+        if (-not (Test-Path $partoolExe)) {
+            [System.Windows.Forms.MessageBox]::Show("No se encontró 'Partool.exe' en la raíz del script.", "Archivo Faltante", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+        }
+        if (-not (Test-Path $carpetaHact)) {
+            [System.Windows.Forms.MessageBox]::Show("No se encontró la carpeta en:`n$carpetaHact", "Carpeta Faltante", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+        }
+    }
+
+    # --- Resultado final ---
+    if ($exitos -gt 0 -and $errores -eq 0) {
+        $statusLabel.Text = "¡Traducción y empaquetado completados con éxito!"
+        $statusLabel.ForeColor = [System.Drawing.Color]::LimeGreen
+        [System.Windows.Forms.MessageBox]::Show("Proceso finalizado correctamente.", "¡Éxito!", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
+    } elseif ($exitos -gt 0 -and $errores -gt 0) {
+        $statusLabel.Text = "Proceso terminado con advertencias."
+        $statusLabel.ForeColor = [System.Drawing.Color]::Orange
+        [System.Windows.Forms.MessageBox]::Show("Se renombraron $exitos archivos, pero $errores fallaron o no se encontraron.", "Aviso", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+    } else {
+        $statusLabel.Text = "No se encontraron archivos .pak."
         $statusLabel.ForeColor = [System.Drawing.Color]::Red
-        [System.Windows.Forms.MessageBox]::Show("No se encontró ninguno de los archivos .pak requeridos en el directorio actual.", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
     }
 }
 

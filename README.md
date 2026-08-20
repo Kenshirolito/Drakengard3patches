@@ -1,28 +1,45 @@
-# FarolitoProductions
-![Launcher](https://i.imgur.com/e8SASAb.png)
-## Sobre el Launcher
+# Traducción de Yakuza Ishin
 
-Este launcher fue creado por **FarolitoProductions** para descargar e instalar las traducciones realizadas por el grupo para los siguientes juegos:
+## 📖 Sobre la traducción
 
-- **Yakuza 4**
-![Yakuza 4](https://i.imgur.com/DBnOxMQ.png)
-- **Yakuza 5**
-![Yakuza 5](https://i.imgur.com/dHZ0IRa.png)
-- **Yakuza 6**
-![Yakuza 6](https://i.imgur.com/dKOUUfD.png)
-El launcher permite descargar las traducciones disponibles y mantenerlas actualizadas de una manera sencilla.
+Este proyecto corresponde a la **traducción al español de Yakuza Ishin para PlayStation 3**.
 
+Para poder aplicar el parche de traducción, **necesitas tener el juego en formato carpeta**.
 
+> ⚠️ **IMPORTANTE:** El parche no funciona directamente sobre un disco Blu-ray ni sobre un archivo ISO. El juego debe estar previamente convertido a **Formato Carpeta**.
 
-## Instalación
+---
 
-### ⚠️ IMPORTANTE: Ubicación del Launcher
+## 🛠️ Instalación de la traducción
 
-Para que el launcher pueda instalar correctamente las traducciones, **debes colocar el launcher dentro de la carpeta del juego, exactamente al lado del archivo `.exe` del juego**.
+Una vez que tengas el juego en formato carpeta en tu PC:
 
-**NO debes colocarlo en la carpeta principal de Steam, en el escritorio ni en una carpeta diferente.**
+1. Descarga o clona este repositorio.
+2. Coloca los archivos necesarios de la traducción según las instrucciones del proyecto.
+3. Ejecuta el siguiente archivo:
 
-Por ejemplo, para **Yakuza 5**, la ubicación debe ser:
+   **[Instalar Traduccion.vbs](https://github.com/Kenshirolito/Drakengard3patches/blob/main/Instalar%20Traduccion.vbs)**
 
-```text
-Steamapps\common\Yakuza 5\main\
+4. El script iniciará el instalador de la traducción.
+5. Sigue las instrucciones que aparecerán en el instalador y selecciona la carpeta del juego cuando se solicite.
+
+---
+
+## 💿 Si tienes la versión física
+
+Si compraste **Yakuza Ishin en formato físico**, primero debes convertir el juego a **Formato Carpeta** utilizando tu PS3.
+
+### Desde MultiMAN
+
+1. Introduce el **Blu-ray original de Yakuza Ishin** en tu PS3.
+2. Abre **MultiMAN**.
+3. Utiliza la función de MultiMAN para volcar/copiar el contenido del Blu-ray al disco duro de la PS3.
+4. Asegúrate de que el juego quede almacenado en **Formato Carpeta**.
+5. Transfiere esa carpeta del juego desde la PS3 a tu PC.
+6. Aplica la traducción utilizando el instalador.
+
+Una vez terminada la instalación, vuelve a transferir la carpeta modificada a tu PS3.
+
+---
+
+## 🌐 Si tienes la versión digital
