@@ -3,17 +3,17 @@ Add-Type -AssemblyName System.Drawing
 
 # --- Configuración del Formulario Principal ---
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Traducción - Yakuza 6"
+$form.Text = "Traducción - Yakuza Ishin"
 $form.Size = New-Object System.Drawing.Size(640, 480)
 $form.StartPosition = "CenterScreen"
 $form.FormBorderStyle = "FixedSingle"
 $form.MaximizeBox = $false
 $form.MinimizeBox = $true
-$form.BackColor = [System.Drawing.Color]::FromArgb(20, 20, 20) # Fondo oscuro estilo Yakuza
+$form.BackColor = [System.Drawing.Color]::FromArgb(20, 20, 20)
 
 # --- Título Principal ---
 $title = New-Object System.Windows.Forms.Label
-$title.Text = "Yakuza 6:`nLa Canción de la Vida"
+$title.Text = "Yakuza Ishin!`n(Ryu ga Gotoku Ishin!)"
 $title.Font = New-Object System.Drawing.Font("Segoe UI", 22, [System.Drawing.FontStyle]::Bold)
 $title.ForeColor = [System.Drawing.Color]::White
 $title.TextAlign = [System.Drawing.ContentAlignment]::MiddleCenter
@@ -27,7 +27,7 @@ $btnTranslate.Text = "ACTIVAR TRADUCCIÓN"
 $btnTranslate.Font = New-Object System.Drawing.Font("Segoe UI", 14, [System.Drawing.FontStyle]::Bold)
 $btnTranslate.Size = New-Object System.Drawing.Size(320, 70)
 $btnTranslate.Location = New-Object System.Drawing.Point(152, 220)
-$btnTranslate.BackColor = [System.Drawing.Color]::FromArgb(180, 0, 0) # Rojo
+$btnTranslate.BackColor = [System.Drawing.Color]::FromArgb(180, 0, 0)
 $btnTranslate.ForeColor = [System.Drawing.Color]::White
 $btnTranslate.FlatStyle = "Flat"
 $btnTranslate.FlatAppearance.BorderSize = 0
@@ -35,7 +35,7 @@ $form.Controls.Add($btnTranslate)
 
 # --- Etiqueta de Estado ---
 $statusLabel = New-Object System.Windows.Forms.Label
-$statusLabel.Text = "Presiona el botón para instalar la traducción."
+$statusLabel.Text = "Presiona el botón y selecciona la carpeta PS3_GAME."
 $statusLabel.Font = New-Object System.Drawing.Font("Segoe UI", 10)
 $statusLabel.ForeColor = [System.Drawing.Color]::LightGray
 $statusLabel.TextAlign = [System.Drawing.ContentAlignment]::MiddleCenter
@@ -43,60 +43,85 @@ $statusLabel.Size = New-Object System.Drawing.Size(600, 30)
 $statusLabel.Location = New-Object System.Drawing.Point(12, 320)
 $form.Controls.Add($statusLabel)
 
-# --- Lógica de Copia / Instalación de Archivos ---
+# --- Lógica de Instalación y Reestructuración ---
 function Instalar-Archivos {
-    # Directorio base donde se ejecuta el script
     $baseDirectory = $PSScriptRoot
     if ([string]::IsNullOrEmpty($baseDirectory)) {
-        $baseDirectory = AppDomain::CurrentDomain.BaseDirectory
+        $baseDirectory = [AppDomain]::CurrentDomain.BaseDirectory
     }
 
-    # Lista de archivos (Origen -> Destino)
+    # Diálogo para seleccionar la carpeta PS3_GAME
+    $folderBrowser = New-Object System.Windows.Forms.FolderBrowserDialog
+    $folderBrowser.Description = "Selecciona la carpeta PS3_GAME del juego Yakuza Ishin"
+    
+    if ($folderBrowser.ShowDialog() -ne [System.Windows.Forms.DialogResult]::OK) {
+        return
+    }
+
+    $ps3GamePath = $folderBrowser.SelectedPath
+
+    # Validación básica de la carpeta seleccionada
+    if ((Split-Path $ps3GamePath -Leaf) -ne "PS3_GAME") {
+        [System.Windows.Forms.MessageBox]::Show("Por favor selecciona específicamente la carpeta llamada 'PS3_GAME'.", "Carpeta Incorrecta", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+        return
+    }
+
+    # Estructura según la planilla:
+    # Renombrado (Archivo actual en ejecutable) -> Original (Nuevo nombre) -> Subruta desde PS3_GAME
     $archivos = @(
-        @{ Origen = "mods\mastercry\chara\auth\c_aw_romina\c_aw_romina.gmd"; Destino = "RyuModManager.exe" },
-        @{ Origen = "mods\mastercry\chara\auth\c_aw_claudia\c_aw_claudia.gmd"; Destino = "RyuModManagerGUI.exe" },
-        @{ Origen = "mods\mastercry\chara\tops\c_cw_x_javishu\c_cw_x_javishu.gmd"; Destino = "dinput8.dll" },
-        @{ Origen = "mods\mastercry\chara\tops\c_cw_x_romina\c_cw_x_romina.gmd"; Destino = "winmm.lj" },
-        @{ Origen = "mods\mastercry\chara\tops\c_cw_x_claudia\c_cw_x_claudia.gmd"; Destino = "YakuzaParless.asi" }
+        @{ Renombrado = "2021428.pak"; Original = "PIC1.PNG";     SubRuta = "" },
+        @{ Renombrado = "6661971.pak"; Original = "c01_010.usm"; SubRuta = "USRDIR\movie" },
+        @{ Renombrado = "5CC0382.pak"; Original = "c01_020.usm"; SubRuta = "USRDIR\movie" },
+        @{ Renombrado = "632121R.pak"; Original = "c01_030.usm"; SubRuta = "USRDIR\movie" },
+        @{ Renombrado = "TFZ18HH.pak"; Original = "c01_040.usm"; SubRuta = "USRDIR\movie" },
+        @{ Renombrado = "8318P11.pak"; Original = "c01_050.usm"; SubRuta = "USRDIR\movie" },
+        @{ Renombrado = "521W994.pak"; Original = "c01_010.par"; SubRuta = "USRDIR\auth" },
+        @{ Renombrado = "7ab5453.pak"; Original = "c01_020.par"; SubRuta = "USRDIR\auth" },
+        @{ Renombrado = "06473d3.pak"; Original = "c01_030.par"; SubRuta = "USRDIR\auth" },
+        @{ Renombrado = "686d647.pak"; Original = "c01_040.par"; SubRuta = "USRDIR\auth" },
+        @{ Renombrado = "e160c1e.pak"; Original = "c01_050.par"; SubRuta = "USRDIR\auth" },
+        @{ Renombrado = "6ac6816.pak"; Original = "c01_060.par"; SubRuta = "USRDIR\auth" },
+        @{ Renombrado = "c7d32e5.pak"; Original = "c01_070.par"; SubRuta = "USRDIR\auth" }
     )
 
+    $exitos = 0
     $errores = 0
 
     foreach ($item in $archivos) {
-        $pathOrigen = Join-Path $baseDirectory $item.Origen
-        $pathDestino = Join-Path $baseDirectory $item.Destino
+        $pathOrigen = Join-Path $baseDirectory $item.Renombrado
+        $carpetaDestino = Join-Path $ps3GamePath $item.SubRuta
+        $pathDestino = Join-Path $carpetaDestino $item.Original
 
         if (Test-Path $pathOrigen) {
             try {
-                Copy-Item -Path $pathOrigen -Destination $pathDestino -Force
+                # Crear la subcarpeta (USRDIR\movie, USRDIR\auth, etc.) si no existe
+                if (-not (Test-Path $carpetaDestino)) {
+                    New-Item -ItemType Directory -Path $carpetaDestino -Force | Out-Null
+                }
+
+                # Mover el archivo cambiando su nombre al original
+                Move-Item -Path $pathOrigen -Destination $pathDestino -Force
+                $exitos++
             } catch {
                 $errores++
             }
         } else {
             $errores++
-            [System.Windows.Forms.MessageBox]::Show("No se encontró el archivo origen:`n$($item.Origen)", "Archivo faltante", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
         }
     }
 
-    if ($errores -eq 0) {
-        $statusLabel.Text = "¡Traducción activada! Ejecutando RyuModManager..."
+    if ($exitos -gt 0 -and $errores -eq 0) {
+        $statusLabel.Text = "¡Traducción aplicada con éxito en PS3_GAME!"
         $statusLabel.ForeColor = [System.Drawing.Color]::LimeGreen
-        
-        # Ruta del ejecutable final a iniciar
-        $exePath = Join-Path $baseDirectory "RyuModManager.exe"
-        
-        if (Test-Path $exePath) {
-            try {
-                Start-Process -FilePath $exePath -WorkingDirectory $baseDirectory
-            } catch {
-                [System.Windows.Forms.MessageBox]::Show("No se pudo Activar la traduccion por culpa de mi primo, y esto es lo que el dice:`n$($_.Exception.Message)", "Error al ejecutar", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
-            }
-        } else {
-            [System.Windows.Forms.MessageBox]::Show("Un flaite se robo esto: $exePath", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
-        }
+        [System.Windows.Forms.MessageBox]::Show("Se han procesado los $exitos archivos correctamente.", "¡Éxito!", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Information)
+    } elseif ($exitos -gt 0 -and $errores -gt 0) {
+        $statusLabel.Text = "Instalación parcial. Faltaron algunos archivos."
+        $statusLabel.ForeColor = [System.Drawing.Color]::Orange
+        [System.Windows.Forms.MessageBox]::Show("Se movieron $exitos archivos, pero $errores no se encontraron o fallaron.", "Aviso", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
     } else {
-        $statusLabel.Text = "Faltan archivos de la traduccion."
+        $statusLabel.Text = "Faltan los archivos renombrados (.pak) para instalar."
         $statusLabel.ForeColor = [System.Drawing.Color]::Red
+        [System.Windows.Forms.MessageBox]::Show("No se encontró ninguno de los archivos .pak requeridos en el directorio actual.", "Error", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
     }
 }
 
