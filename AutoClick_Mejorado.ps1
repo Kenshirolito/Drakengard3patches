@@ -69,18 +69,19 @@ function Instalar-Archivos {
     # Estructura según la planilla:
     $archivos = @(
         @{ Renombrado = "2021428.pak"; Original = "PIC1.PNG";     SubRuta = "" },
-        @{ Renombrado = "6661971.pak"; Original = "c01_010.usm"; SubRuta = "USRDIR\movie" },
-        @{ Renombrado = "5CC0382.pak"; Original = "c01_020.usm"; SubRuta = "USRDIR\movie" },
-        @{ Renombrado = "632121R.pak"; Original = "c01_030.usm"; SubRuta = "USRDIR\movie" },
-        @{ Renombrado = "TFZ18HH.pak"; Original = "c01_040.usm"; SubRuta = "USRDIR\movie" },
-        @{ Renombrado = "8318P11.pak"; Original = "c01_050.usm"; SubRuta = "USRDIR\movie" },
-        @{ Renombrado = "521W994.pak"; Original = "c01_010.par"; SubRuta = "USRDIR\auth" },
-        @{ Renombrado = "7ab5453.pak"; Original = "c01_020.par"; SubRuta = "USRDIR\auth" },
-        @{ Renombrado = "06473d3.pak"; Original = "c01_030.par"; SubRuta = "USRDIR\auth" },
-        @{ Renombrado = "686d647.pak"; Original = "c01_040.par"; SubRuta = "USRDIR\auth" },
-        @{ Renombrado = "e160c1e.pak"; Original = "c01_050.par"; SubRuta = "USRDIR\auth" },
-        @{ Renombrado = "6ac6816.pak"; Original = "c01_060.par"; SubRuta = "USRDIR\auth" },
-        @{ Renombrado = "c7d32e5.pak"; Original = "c01_070.par"; SubRuta = "USRDIR\auth" }
+        @{ Renombrado = "6661971.pak"; Original = "c01_010.usm"; SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "5CC0382.pak"; Original = "c01_020.usm"; SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "632121R.pak"; Original = "c01_030.usm"; SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "TFZ18HH.pak"; Original = "c01_040.usm"; SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "8318P11.pak"; Original = "c01_050.usm"; SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "521W994.pak"; Original = "c01_010.par"; SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "7ab5453.pak"; Original = "c01_020.par"; SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "06473d3.pak"; Original = "c01_030.par"; SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "686d647.pak"; Original = "c01_040.par"; SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "e160c1e.pak"; Original = "c01_050.par"; SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "6ac6816.pak"; Original = "c01_060.par"; SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "69d0ef2.pak"; Original = "street_name.dat"; SubRuta = "USRDIR\data\stage\ps3\flag_data" }
+        @{ Renombrado = "c7d32e5.pak"; Original = "c01_070.par"; SubRuta = "USRDIR\data\auth" }
     )
 
     $exitos = 0
