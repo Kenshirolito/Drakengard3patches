@@ -73,6 +73,7 @@ function Instalar-Archivos {
         @{ Renombrado = "5CC0382.pak"; Original = "c01_020.usm"; SubRuta = "USRDIR\data\movie" },
         @{ Renombrado = "632121R.pak"; Original = "c01_030.usm"; SubRuta = "USRDIR\data\movie" },
         @{ Renombrado = "TFZ18HH.pak"; Original = "c01_040.usm"; SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "51ba1ef.pak";  Original = "system_install.hca";  SubRuta = "USRDIR\data\soundcpk" },
         @{ Renombrado = "8318P11.pak"; Original = "c01_050.usm"; SubRuta = "USRDIR\data\movie" },
         @{ Renombrado = "521W994.pak"; Original = "c01_010.par"; SubRuta = "USRDIR\data\auth" },
         @{ Renombrado = "7ab5453.pak"; Original = "c01_020.par"; SubRuta = "USRDIR\data\auth" },
