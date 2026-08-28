@@ -82,6 +82,7 @@ function Instalar-Archivos {
         @{ Renombrado = "686d647.pak"; Original = "c01_040.par";        SubRuta = "USRDIR\data\auth" },
         @{ Renombrado = "e160c1e.pak"; Original = "c01_050.par";        SubRuta = "USRDIR\data\auth" },
         @{ Renombrado = "6ac6816.pak"; Original = "c01_060.par";        SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "a319f11.pak"; Original = "EBOOT.BIN";        SubRuta = "USRDIR" },
         @{ Renombrado = "69d0ef2.pak"; Original = "street_name.dat";   SubRuta = "USRDIR\data\stage\ps3\flag_data" },
         @{ Renombrado = "c7d32e5.pak"; Original = "c01_070.par";        SubRuta = "USRDIR\data\auth" }
     )
