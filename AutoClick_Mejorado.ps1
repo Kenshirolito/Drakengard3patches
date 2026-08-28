@@ -68,22 +68,22 @@ function Instalar-Archivos {
 
     # Estructura según la planilla:
     $archivos = @(
-        @{ Renombrado = "2021428.pak"; Original = "PIC1.PNG";     SubRuta = "" },
-        @{ Renombrado = "6661971.pak"; Original = "c01_010.usm"; SubRuta = "USRDIR\data\movie" },
-        @{ Renombrado = "5CC0382.pak"; Original = "c01_020.usm"; SubRuta = "USRDIR\data\movie" },
-        @{ Renombrado = "632121R.pak"; Original = "c01_030.usm"; SubRuta = "USRDIR\data\movie" },
-        @{ Renombrado = "TFZ18HH.pak"; Original = "c01_040.usm"; SubRuta = "USRDIR\data\movie" },
-        @{ Renombrado = "51ba1ef.pak";  Original = "system_install.hca";  SubRuta = "USRDIR\data\soundcpk" },
-        @{ Renombrado = "8318P11.pak"; Original = "c01_050.usm"; SubRuta = "USRDIR\data\movie" },
-        @{ Renombrado = "VACE666.pak"; Original = "boot.par"; SubRuta = "USRDIR\data\bootpar" },
-        @{ Renombrado = "521W994.pak"; Original = "c01_010.par"; SubRuta = "USRDIR\data\auth" },
-        @{ Renombrado = "7ab5453.pak"; Original = "c01_020.par"; SubRuta = "USRDIR\data\auth" },
-        @{ Renombrado = "06473d3.pak"; Original = "c01_030.par"; SubRuta = "USRDIR\data\auth" },
-        @{ Renombrado = "686d647.pak"; Original = "c01_040.par"; SubRuta = "USRDIR\data\auth" },
-        @{ Renombrado = "e160c1e.pak"; Original = "c01_050.par"; SubRuta = "USRDIR\data\auth" },
-        @{ Renombrado = "6ac6816.pak"; Original = "c01_060.par"; SubRuta = "USRDIR\data\auth" },
-        @{ Renombrado = "69d0ef2.pak"; Original = "street_name.dat"; SubRuta = "USRDIR\data\stage\ps3\flag_data" }
-        @{ Renombrado = "c7d32e5.pak"; Original = "c01_070.par"; SubRuta = "USRDIR\data\auth" }
+        @{ Renombrado = "2021428.pak"; Original = "PIC1.PNG";            SubRuta = "" },
+        @{ Renombrado = "6661971.pak"; Original = "c01_010.usm";        SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "5CC0382.pak"; Original = "c01_020.usm";        SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "632121R.pak"; Original = "c01_030.usm";        SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "TFZ18HH.pak"; Original = "c01_040.usm";        SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "51ba1ef.pak"; Original = "system_install.hca"; SubRuta = "USRDIR\data\soundcpk" },
+        @{ Renombrado = "8318P11.pak"; Original = "c01_050.usm";        SubRuta = "USRDIR\data\movie" },
+        @{ Renombrado = "VACE666.pak"; Original = "boot.par";           SubRuta = "USRDIR\data\bootpar" },
+        @{ Renombrado = "521W994.pak"; Original = "c01_010.par";        SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "7ab5453.pak"; Original = "c01_020.par";        SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "06473d3.pak"; Original = "c01_030.par";        SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "686d647.pak"; Original = "c01_040.par";        SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "e160c1e.pak"; Original = "c01_050.par";        SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "6ac6816.pak"; Original = "c01_060.par";        SubRuta = "USRDIR\data\auth" },
+        @{ Renombrado = "69d0ef2.pak"; Original = "street_name.dat";   SubRuta = "USRDIR\data\stage\ps3\flag_data" },
+        @{ Renombrado = "c7d32e5.pak"; Original = "c01_070.par";        SubRuta = "USRDIR\data\auth" }
     )
 
     $exitos = 0
@@ -117,15 +117,38 @@ function Instalar-Archivos {
     if ((Test-Path $partoolExe) -and (Test-Path $carpetaHact)) {
         try {
             $statusLabel.Text = "Procesando hact.par.unpack con Partool.exe..."
+            $form.Refresh()
             
-            # Equivale a arrastrar la carpeta hacia Partool.exe
-            $process = Start-Process -FilePath $partoolExe -ArgumentList "`"$carpetaHact`"" -WorkingDirectory $baseDirectory -PassThru -Wait
+            # Ejecutar Partool pasándole la carpeta unpack
+            $process = Start-Process -FilePath $partoolExe -ArgumentList "`"$carpetaHact`"" -WorkingDirectory (Split-Path $partoolExe) -PassThru -Wait
+            
+            # Ubicación esperada del archivo .par recién empaquetado
+            $hactGenerado = Join-Path $baseDirectory "TMP\PS3_GAME\USRDIR\data\hact.par"
+            
+            # Ubicación destino en el juego seleccionado por el usuario
+            $destinoHactFolder = Join-Path $ps3GamePath "USRDIR\data"
+            $destinoHactFile = Join-Path $destinoHactFolder "hact.par"
+
+            if (Test-Path $hactGenerado) {
+                if (-not (Test-Path $destinoHactFolder)) {
+                    New-Item -ItemType Directory -Path $destinoHactFolder -Force | Out-Null
+                }
+                
+                # Mover el archivo hact.par generado a la carpeta USRDIR\data del juego
+                Move-Item -Path $hactGenerado -Destination $destinoHactFile -Force
+                $exitos++
+            } else {
+                [System.Windows.Forms.MessageBox]::Show("Partool finalizó pero no se encontró el archivo generado 'hact.par'.", "Error de Empaquetado", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
+                $errores++
+            }
+
         } catch {
             [System.Windows.Forms.MessageBox]::Show("Error al ejecutar Partool.exe:`n$($_.Exception.Message)", "Error de ejecución", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
+            $errores++
         }
     } else {
         if (-not (Test-Path $partoolExe)) {
-            [System.Windows.Forms.MessageBox]::Show("No se encontró 'Partool.exe' en la raíz del script.", "Archivo Faltante", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+            [System.Windows.Forms.MessageBox]::Show("No se encontró 'Partool.exe' en la ruta especificada.", "Archivo Faltante", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
         }
         if (-not (Test-Path $carpetaHact)) {
             [System.Windows.Forms.MessageBox]::Show("No se encontró la carpeta en:`n$carpetaHact", "Carpeta Faltante", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
@@ -140,9 +163,9 @@ function Instalar-Archivos {
     } elseif ($exitos -gt 0 -and $errores -gt 0) {
         $statusLabel.Text = "Proceso terminado con advertencias."
         $statusLabel.ForeColor = [System.Drawing.Color]::Orange
-        [System.Windows.Forms.MessageBox]::Show("Se renombraron $exitos archivos, pero $errores fallaron o no se encontraron.", "Aviso", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
+        [System.Windows.Forms.MessageBox]::Show("Se procesaron algunos archivos, pero otros fallaron o no se encontraron.", "Aviso", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Warning)
     } else {
-        $statusLabel.Text = "No se encontraron archivos .pak."
+        $statusLabel.Text = "No se realizaron los cambios correctamente."
         $statusLabel.ForeColor = [System.Drawing.Color]::Red
     }
 }
